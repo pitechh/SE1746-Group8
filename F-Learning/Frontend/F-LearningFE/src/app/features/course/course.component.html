@@ -1,0 +1,344 @@
+<section class="bg-gray-50 pb-2 pt-16 antialiased dark:bg-gray-900 ">
+  <div class="mx-auto max-w-screen-xl px-4 2xl:px-0 pt-1">
+    <!-- This would go in your component's HTML file -->
+    <div class="container mx-auto px-4 py-6 bg-gray-50">
+      <!-- Page Header -->
+      <div class="flex justify-between items-center mb-6">
+        <h1 class="text-3xl font-bold">Course</h1>
+        <div class="relative">
+          <button id="sortButton"
+            class="flex items-center justify-between px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:ring-blue-300">
+            <span class="flex items-center">
+              <svg class="w-4 h-4 mr-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M5 4a1 1 0 00-2 0v7.268a2 2 0 000 3.464V16a1 1 0 102 0v-1.268a2 2 0 000-3.464V4zM11 4a1 1 0 10-2 0v1.268a2 2 0 000 3.464V16a1 1 0 102 0V8.732a2 2 0 000-3.464V4zM16 3a1 1 0 011 1v7.268a2 2 0 010 3.464V16a1 1 0 11-2 0v-1.268a2 2 0 010-3.464V4a1 1 0 011-1z">
+                </path>
+              </svg>
+              Sort
+            </span>
+            <svg class="w-4 h-4 ml-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd"
+                d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                clip-rule="evenodd"></path>
+            </svg>
+          </button>
+
+          
+        </div>
+      </div>
+
+      <div class="flex flex-col md:flex-row gap-6">
+        <!-- Sidebar - Filters -->
+        <div class="w-full md:w-1/4 bg-white rounded-lg p-4 border">
+          <!-- Categories -->
+          <div class="mb-4">
+            <button class="flex items-center justify-between w-full py-2 text-left text-gray-900 font-medium border-b">
+              <span>Categories</span>
+              <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd"
+                  d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                  clip-rule="evenodd"></path>
+              </svg>
+            </button>
+            <div class="mt-4">
+              <div class="relative">
+                <div class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
+                  <svg class="w-4 h-4 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                      d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+                  </svg>
+                </div>
+                <input type="search"
+                  class="block w-full p-2 pl-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500"
+                  placeholder="Search for categories">
+              </div>
+
+              <div class="mt-4 space-y-2">
+                <div class="flex items-center">
+                  <input id="tv-audio" type="checkbox"
+                    class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500">
+                  <label for="tv-audio" class="ml-2 text-sm text-gray-900">TV, Audio-Video</label>
+                </div>
+                <div class="flex items-center">
+                  <input id="desktop-pc" type="checkbox" checked
+                    class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500">
+                  <label for="desktop-pc" class="ml-2 text-sm text-gray-900">Desktop PC</label>
+                </div>
+                <div class="flex items-center">
+                  <input id="gaming" type="checkbox"
+                    class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500">
+                  <label for="gaming" class="ml-2 text-sm text-gray-900">Gaming</label>
+                </div>
+                <div class="flex items-center">
+                  <input id="monitors" type="checkbox"
+                    class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500">
+                  <label for="monitors" class="ml-2 text-sm text-gray-900">Monitors</label>
+                </div>
+                <div class="flex items-center">
+                  <input id="laptops" type="checkbox" checked
+                    class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500">
+                  <label for="laptops" class="ml-2 text-sm text-gray-900">Laptops</label>
+                </div>
+                <div class="flex items-center">
+                  <input id="console" type="checkbox"
+                    class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500">
+                  <label for="console" class="ml-2 text-sm text-gray-900">Console</label>
+                </div>
+                <div class="flex items-center">
+                  <input id="tablets" type="checkbox" checked
+                    class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500">
+                  <label for="tablets" class="ml-2 text-sm text-gray-900">Tablets</label>
+                </div>
+                <div class="flex items-center">
+                  <input id="foto" type="checkbox"
+                    class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500">
+                  <label for="foto" class="ml-2 text-sm text-gray-900">Foto</label>
+                </div>
+                <div class="flex items-center">
+                  <input id="fashion" type="checkbox"
+                    class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500">
+                  <label for="fashion" class="ml-2 text-sm text-gray-900">Fashion</label>
+                </div>
+                <div class="flex items-center">
+                  <input id="books" type="checkbox"
+                    class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500">
+                  <label for="books" class="ml-2 text-sm text-gray-900">Books</label>
+                </div>
+              </div>
+
+              <button class="mt-4 text-blue-600 hover:underline inline-flex items-center text-sm">
+                See more
+                <svg class="w-3 h-3 ml-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd"
+                    d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
+                    clip-rule="evenodd"></path>
+                </svg>
+              </button>
+            </div>
+          </div>
+
+          <!-- Accordion filters -->
+          <div class="space-y-2">
+            <!-- Rating -->
+            <button class="flex items-center justify-between w-full py-2 text-left text-gray-900 border-b">
+              <span>Rating</span>
+              <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd"
+                  d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                  clip-rule="evenodd"></path>
+              </svg>
+            </button>
+
+            <!-- Price -->
+            <button class="flex items-center justify-between w-full py-2 text-left text-gray-900 border-b">
+              <span>Price</span>
+              <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd"
+                  d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                  clip-rule="evenodd"></path>
+              </svg>
+            </button>
+
+            <!-- Shipping to -->
+            <button class="flex items-center justify-between w-full py-2 text-left text-gray-900 border-b">
+              <span>Shipping to</span>
+              <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd"
+                  d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                  clip-rule="evenodd"></path>
+              </svg>
+            </button>
+
+            <!-- Color -->
+            <button class="flex items-center justify-between w-full py-2 text-left text-gray-900 border-b">
+              <span>Color</span>
+              <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd"
+                  d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                  clip-rule="evenodd"></path>
+              </svg>
+            </button>
+
+            <!-- Delivery Method -->
+            <button class="flex items-center justify-between w-full py-2 text-left text-gray-900 border-b">
+              <span>Delivery Method</span>
+              <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd"
+                  d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                  clip-rule="evenodd"></path>
+              </svg>
+            </button>
+
+            <!-- Condition -->
+            <button class="flex items-center justify-between w-full py-2 text-left text-gray-900 border-b">
+              <span>Condition</span>
+              <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd"
+                  d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                  clip-rule="evenodd"></path>
+              </svg>
+            </button>
+
+            <!-- Weight -->
+            <button class="flex items-center justify-between w-full py-2 text-left text-gray-900 border-b">
+              <span>Weight</span>
+              <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd"
+                  d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                  clip-rule="evenodd"></path>
+              </svg>
+            </button>
+          </div>
+        </div>
+
+        <!-- Product Grid -->
+        <div class="w-full">
+          <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+            <!-- Product Card 1 -->
+            <div class="bg-white rounded-lg shadow-md overflow-hidden border border-gray-200">
+              <div class="relative">
+                <img src="ca1.png" alt="Online Course" class="w-full h-40 object-cover">
+                <div class="absolute top-0 left-0 bg-blue-500 text-white text-xs font-semibold px-2 py-1">
+                  CHẤT LƯỢNG
+                </div>
+              </div>
+              <div class="p-4">
+                <h3 class="text-lg font-bold text-gray-900 mb-3">KHÓA HỌC ONLINE</h3>
+                <div class="flex items-center text-gray-600 mb-2">
+                  <span class="flex items-center text-sm">
+                    <svg class="w-4 h-4 mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clip-rule="evenodd"></path>
+                    </svg>
+                    Huỳnh Mai
+                  </span>
+                </div>
+                <div class="flex items-center text-gray-600 mb-2">
+                  <span class="flex items-center text-sm">
+                    <svg class="w-4 h-4 mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z" clip-rule="evenodd"></path>
+                    </svg>
+                    136 Bài học · 14 giờ 2 phút
+                  </span>
+                </div>
+                <div class="flex justify-between items-center">
+                  <span class="text-sm font-medium text-gray-900">$299</span>
+                  <button class="px-3 py-1.5 bg-blue-600 text-white text-sm font-medium rounded-lg hover:bg-blue-700 transition">
+                    Xem chi tiết
+                  </button>
+                </div>
+              </div>
+            </div>
+        
+            <!-- Product Card 2 -->
+            <div class="bg-white rounded-lg shadow-md overflow-hidden border border-gray-200">
+              <div class="relative">
+                <img src="ca2.jpg" alt="Online Course" class="w-full h-40 object-cover">
+                <div class="absolute top-0 left-0 bg-blue-500 text-white text-xs font-semibold px-2 py-1">
+                  CHẤT LƯỢNG
+                </div>
+              </div>
+              <div class="p-4">
+                <h3 class="text-lg font-bold text-gray-900 mb-3">KHÓA HỌC ONLINE</h3>
+                <div class="flex items-center text-gray-600 mb-2">
+                  <span class="flex items-center text-sm">
+                    <svg class="w-4 h-4 mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clip-rule="evenodd"></path>
+                    </svg>
+                    Huỳnh Mai
+                  </span>
+                </div>
+                <div class="flex items-center text-gray-600 mb-2">
+                  <span class="flex items-center text-sm">
+                    <svg class="w-4 h-4 mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z" clip-rule="evenodd"></path>
+                    </svg>
+                    136 Bài học · 14 giờ 2 phút
+                  </span>
+                </div>
+                <div class="flex justify-between items-center">
+                  <span class="text-sm font-medium text-gray-900">$299</span>
+                  <button class="px-3 py-1.5 bg-blue-600 text-white text-sm font-medium rounded-lg hover:bg-blue-700 transition">
+                    Xem chi tiết
+                  </button>
+                </div>
+              </div>
+            </div>
+        
+            <!-- Product Card 3 -->
+            <div class="bg-white rounded-lg shadow-md overflow-hidden border border-gray-200">
+              <div class="relative">
+                <img src="ca3.jpg" alt="Online Course" class="w-full h-40 object-cover">
+                <div class="absolute top-0 left-0 bg-blue-500 text-white text-xs font-semibold px-2 py-1">
+                  CHẤT LƯỢNG
+                </div>
+              </div>
+              <div class="p-4">
+                <h3 class="text-lg font-bold text-gray-900 mb-3">KHÓA HỌC ONLINE</h3>
+                <div class="flex items-center text-gray-600 mb-2">
+                  <span class="flex items-center text-sm">
+                    <svg class="w-4 h-4 mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clip-rule="evenodd"></path>
+                    </svg>
+                    Huỳnh Mai
+                  </span>
+                </div>
+                <div class="flex items-center text-gray-600 mb-2">
+                  <span class="flex items-center text-sm">
+                    <svg class="w-4 h-4 mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z" clip-rule="evenodd"></path>
+                    </svg>
+                    136 Bài học · 14 giờ 2 phút
+                  </span>
+                </div>
+                <div class="flex justify-between items-center">
+                  <span class="text-sm font-medium text-gray-900">$299</span>
+                  <button class="px-3 py-1.5 bg-blue-600 text-white text-sm font-medium rounded-lg hover:bg-blue-700 transition">
+                    Xem chi tiết
+                  </button>
+                </div>
+              </div>
+            </div>
+        
+            <!-- Product Card 4 -->
+            <div class="bg-white rounded-lg shadow-md overflow-hidden border border-gray-200">
+              <div class="relative">
+                <img src="ca4.jpg" alt="Online Course" class="w-full h-40 object-cover">
+                <div class="absolute top-0 left-0 bg-blue-500 text-white text-xs font-semibold px-2 py-1">
+                  CHẤT LƯỢNG
+                </div>
+              </div>
+              <div class="p-4">
+                <h3 class="text-lg font-bold text-gray-900 mb-3">KHÓA HỌC ONLINE</h3>
+                <div class="flex items-center text-gray-600 mb-2">
+                  <span class="flex items-center text-sm">
+                    <svg class="w-4 h-4 mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clip-rule="evenodd"></path>
+                    </svg>
+                    Huỳnh Mai
+                  </span>
+                </div>
+                <div class="flex items-center text-gray-600 mb-2">
+                  <span class="flex items-center text-sm">
+                    <svg class="w-4 h-4 mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z" clip-rule="evenodd"></path>
+                    </svg>
+                    136 Bài học · 14 giờ 2 phút
+                  </span>
+                </div>
+                <div class="flex justify-between items-center">
+                  <span class="text-sm font-medium text-gray-900">$299</span>
+                  <button class="px-3 py-1.5 bg-blue-600 text-white text-sm font-medium rounded-lg hover:bg-blue-700 transition">
+                    Xem chi tiết
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+</section>

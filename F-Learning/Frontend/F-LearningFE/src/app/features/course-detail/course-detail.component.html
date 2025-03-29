@@ -1,0 +1,223 @@
+<!-- app.component.html -->
+<section class="bg-gray-50 pt-16 antialiased dark:bg-gray-900 md:pt-16 md:mt-2">
+    <div class="container mx-auto px-4 py-8">
+        <!-- Course Content -->
+        <div class="grid grid-cols-1 gap-8 lg:grid-cols-3">
+            <!-- Left Column -->
+            <div class="lg:col-span-2">
+                <!-- What You'll Learn -->
+                <div class="mb-8">
+                    <h1 class="mb-4 text-3xl font-bold text-gray-900 dark:text-white">Kiến Thức Nhập Môn IT</h1>
+                    <p class="mb-4 text-base text-gray-700 dark:text-gray-300">
+                        Để có cái nhìn tổng quan về ngành IT - Lập trình web các bạn nên xem các videos tại khóa này
+                        trước nhé.
+                    </p>
+                    <h2 class="mb-4 text-xl font-bold text-gray-900 dark:text-white">Bạn sẽ học được gì?</h2>
+                    <div class="grid grid-cols-1 gap-3 md:grid-cols-2">
+                        <div class="flex items-start">
+                            <svg class="mr-2 h-5 w-5 flex-shrink-0 text-blue-600" fill="currentColor"
+                                viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd"
+                                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                                    clip-rule="evenodd"></path>
+                            </svg>
+                            <span class="text-sm text-gray-700 dark:text-gray-300">Các kiến thức cơ bản, nền móng của
+                                ngành
+                                IT</span>
+                        </div>
+                        <div class="flex items-start">
+                            <svg class="mr-2 h-5 w-5 flex-shrink-0 text-blue-600" fill="currentColor"
+                                viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd"
+                                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                                    clip-rule="evenodd"></path>
+                            </svg>
+                            <span class="text-sm text-gray-700 dark:text-gray-300">Các mô hình, kiến trúc cơ bản khi
+                                triển khai
+                                ứng dụng</span>
+                        </div>
+                        <div class="flex items-start">
+                            <svg class="mr-2 h-5 w-5 flex-shrink-0 text-blue-600" fill="currentColor"
+                                viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd"
+                                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                                    clip-rule="evenodd"></path>
+                            </svg>
+                            <span class="text-sm text-gray-700 dark:text-gray-300">Các khái niệm, thuật ngữ cốt lõi khi
+                                triển
+                                khai ứng dụng</span>
+                        </div>
+                        <div class="flex items-start">
+                            <svg class="mr-2 h-5 w-5 flex-shrink-0 text-blue-600" fill="currentColor"
+                                viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd"
+                                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                                    clip-rule="evenodd"></path>
+                            </svg>
+                            <span class="text-sm text-gray-700 dark:text-gray-300">Hiểu hơn về cách internet và máy vi
+                                tính hoạt
+                                động</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Course Content -->
+                <div class="mb-8">
+                    <div class="mb-2 flex items-center justify-between">
+                        <h2 class="text-2xl font-bold text-gray-900 dark:text-white">Nội dung khóa học</h2>
+                        <button class="text-blue-600 hover:underline dark:text-blue-500">Mở rộng tất cả</button>
+                    </div>
+                    <div class="text-sm text-gray-600 dark:text-gray-400 mb-4">
+                        <span>4 chương</span> • <span>12 bài học</span> • <span>Thời lượng 03 giờ 26 phút</span>
+                    </div>
+
+                    <!-- Course Modules -->
+            <!-- course-accordion.component.html -->
+<div class="space-y-4">
+    <!-- Loop through each module -->
+    <div *ngFor="let module of modules" class="rounded-lg border border-gray-200 bg-white dark:border-gray-700 dark:bg-gray-800">
+      <!-- Module Header -->
+      <button 
+        (click)="toggleModule(module.id)"
+        class="flex w-full items-center justify-between rounded-t-lg bg-gray-100 px-4 py-4 text-left text-gray-900 dark:bg-gray-800 dark:text-white"
+        [ngClass]="{ 'rounded-lg': !module.expanded, 'rounded-t-lg': module.expanded }">
+        <div class="flex items-center">
+          <svg class="mr-2 h-5 w-5 text-blue-600" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" 
+              [attr.d]="module.expanded ? 'M3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z' : 'M10 5a1 1 0 011 1v3h3a1 1 0 110 2h-3v3a1 1 0 11-2 0v-3H6a1 1 0 110-2h3V6a1 1 0 011-1z'" 
+              clip-rule="evenodd">
+            </path>
+          </svg>
+          <span class="font-medium">{{ module.id }}. {{ module.title }}</span>
+        </div>
+        <span class="text-sm text-gray-600 dark:text-gray-400">{{ module.lessonsCount }} bài học</span>
+      </button>
+  
+      <!-- Module Content (Lessons) -->
+      <div *ngIf="module.expanded" class="p-4 border-t border-gray-200 dark:border-gray-700">
+        <div *ngFor="let lesson of module.lessons" class="py-2 border-b border-gray-100 dark:border-gray-700 last:border-0">
+          <div class="flex items-center justify-between">
+            <div class="flex items-center">
+              <svg class="mr-3 h-4 w-4 text-blue-600" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z" clip-rule="evenodd"></path>
+              </svg>
+              <span>{{ lesson.id }}. {{ lesson.title }}</span>
+            </div>
+            <span class="text-sm text-gray-500">{{ lesson.duration }}</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+                </div>
+            </div>
+
+            <div class="lg:col-span-1">
+                <!-- Video Component with improved aesthetics -->
+                <div class="mb-8 rounded-2xl shadow-lg overflow-hidden">
+                    <div class="relative">
+                        <!-- Increase the size by adding a width class and letting the aspect ratio handle the height -->
+                        <div
+                            class="aspect-w-16 aspect-h-9 rounded-lg bg-gray-800 overflow-hidden w-full md:w-4/5 lg:w-full mx-auto">
+                            <!-- Nút Play -->
+                            <div class="flex h-full items-center justify-center" *ngIf="!isPlaying">
+                                <button (click)="playVideo()"
+                                    class="rounded-full bg-white bg-opacity-25 p-4 text-white transition hover:bg-opacity-50">
+                                    <svg class="h-8 w-8" fill="currentColor" viewBox="0 0 20 20"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd"
+                                            d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z"
+                                            clip-rule="evenodd"></path>
+                                    </svg>
+                                </button>
+                            </div>
+                            <!-- Video with explicit height -->
+                            <iframe *ngIf="isPlaying" [src]="videoUrl" frameborder="0" allowfullscreen
+                                class="w-full h-56"></iframe>
+                        </div>
+                    </div>
+                </div>
+                <!-- Course Info with improved card design -->
+                <div
+                    class="rounded-xl bg-white p-6 shadow-md dark:bg-gray-800 border border-gray-100 dark:border-gray-700 transition-all duration-300 hover:shadow-lg">
+                    <!-- Price with badge -->
+                    <div class="flex items-center mb-4">
+                        <h3 class="text-3xl font-medium text-blue-600">Miễn phí</h3>
+                    </div>
+
+                    <!-- Course features with improved icons -->
+                    <div class="mb-4 space-y-4">
+                        <div class="flex items-center group">
+                            <div
+                                class="flex items-center justify-center w-7 h-7 mr-3 rounded-full bg-blue-50 text-blue-600 group-hover:bg-blue-100 transition-colors dark:bg-gray-700 dark:text-blue-400">
+                                <svg class="h-5 w-5" fill="currentColor" viewBox="0 0 20 20"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd"
+                                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                                        clip-rule="evenodd"></path>
+                                </svg>
+                            </div>
+                            <span class="text-gray-700 dark:text-gray-300 font-medium text-lg ">Trình độ cơ bản</span>
+                        </div>
+
+                        <div class="flex items-center group">
+                            <div
+                                class="flex items-center justify-center w-7 h-7 mr-3 rounded-full bg-blue-50 text-blue-600 group-hover:bg-blue-100 transition-colors dark:bg-gray-700 dark:text-blue-400">
+                                <svg class="h-5 w-5" fill="currentColor" viewBox="0 0 20 20"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M7 3a1 1 0 000 2h6a1 1 0 100-2H7zM4 7a1 1 0 011-1h10a1 1 0 110 2H5a1 1 0 01-1-1zM2 11a2 2 0 012-2h12a2 2 0 012 2v4a2 2 0 01-2 2H4a2 2 0 01-2-2v-4z">
+                                    </path>
+                                </svg>
+                            </div>
+                            <span class="text-gray-700 dark:text-gray-300 font-medium text-lg">Tổng số <span
+                                    class="font-semibold text-gray-900 dark:text-white">12</span> bài học</span>
+                        </div>
+
+                        <div class="flex items-center group">
+                            <div
+                                class="flex items-center justify-center w-7 h-7 mr-3 rounded-full bg-blue-50 text-blue-600 group-hover:bg-blue-100 transition-colors dark:bg-gray-700 dark:text-blue-400">
+                                <svg class="h-5 w-5" fill="currentColor" viewBox="0 0 20 20"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd"
+                                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z"
+                                        clip-rule="evenodd"></path>
+                                </svg>
+                            </div>
+                            <span class="text-gray-700 dark:text-gray-300 font-medium text-lg">Thời lượng <span
+                                    class="font-semibold text-gray-900 dark:text-white">03 giờ 26 phút</span></span>
+                        </div>
+
+                        <div class="flex items-center group">
+                            <div
+                                class="flex items-center justify-center w-7 h-7 mr-3 rounded-full bg-blue-50 text-blue-600 group-hover:bg-blue-100 transition-colors dark:bg-gray-700 dark:text-blue-400">
+                                <svg class="h-5 w-5" fill="currentColor" viewBox="0 0 20 20"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M13 6a3 3 0 11-6 0 3 3 0 016 0zM18 8a2 2 0 11-4 0 2 2 0 014 0zM14 15a4 4 0 00-8 0v3h8v-3zM6 8a2 2 0 11-4 0 2 2 0 014 0zM16 18v-3a5.972 5.972 0 00-.75-2.906A3.005 3.005 0 0119 15v3h-3zM4.75 12.094A5.973 5.973 0 004 15v3H1v-3a3 3 0 013.75-2.906z">
+                                    </path>
+                                </svg>
+                            </div>
+                            <span class="text-gray-700 dark:text-gray-300text-lg font-medium">Học mọi lúc, mọi nơi</span>
+                        </div>
+                    </div>
+
+                    <!-- CTA Button with improved styling -->
+                    <button
+                        class="mt-6 w-full rounded-lg bg-blue-600 px-5 py-4 text-center text-base font-medium text-white transition-all duration-300 hover:bg-blue-700 hover:shadow-lg focus:outline-none focus:ring-4 focus:ring-blue-300 dark:bg-blue-500 dark:hover:bg-blue-600 dark:focus:ring-blue-800 flex items-center justify-center">
+                        <svg class="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M10.394 2.08a1 1 0 00-.788 0l-7 3a1 1 0 000 1.84L5.25 8.051a.999.999 0 01.356-.257l4-1.714a1 1 0 11.788 1.838L7.667 9.088l1.94.831a1 1 0 00.787 0l7-3a1 1 0 000-1.838l-7-3zM3.31 9.397L5 10.12v4.102a8.969 8.969 0 00-1.05-.174 1 1 0 01-.89-.89 11.115 11.115 0 01.25-3.762zM9.3 16.573A9.026 9.026 0 007 14.935v-3.957l1.818.78a3 3 0 002.364 0l5.508-2.361a11.026 11.026 0 01.25 3.762 1 1 0 01-.89.89 8.968 8.968 0 00-5.35 2.524 1 1 0 01-1.4 0zM6 18a1 1 0 001-1v-2.065a8.935 8.935 0 00-2-.712V17a1 1 0 001 1z">
+                            </path>
+                        </svg>
+                        ĐĂNG KÝ HỌC
+                    </button>
+                </div>
+            </div>
+
+            <!-- Course Info -->
+
+        </div>
+    </div>
+</section>

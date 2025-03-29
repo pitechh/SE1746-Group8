@@ -1,0 +1,144 @@
+<section class="bg-gray-50 pt:16 antialiased dark:bg-gray-900 md:pt-16 md:mt-2">
+    <!-- app.component.html -->
+    <div class="container mx-auto px-4 py-12 md:py-20">
+        <!-- Hero Section -->
+        <div class="flex flex-col md:flex-row items-center justify-between">
+            <!-- Left side content -->
+            <div class="md:w-1/2 mb-8 md:mb-0 md:pl-44">
+                <h1 class="text-5xl font-bold mb-6">Học không giới hạn</h1>
+                <p class="text-lg mb-8">
+                    Bắt đầu, chuyển đổi hoặc thăng tiến sự nghiệp của bạn với hơn 10.000 khóa học, Chứng chỉ chuyên môn
+                    và bằng cấp từ các trường đại học và công ty đẳng cấp thế giới.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4">
+                    <button class="bg-blue-600 hover:bg-blue-700 text-white font-medium py-3 px-6 rounded">
+                        Tham gia cùng chúng tôi
+                    </button>
+                    <button class="border border-blue-600 text-blue-600 hover:bg-blue-50 font-medium py-3 px-6 rounded">
+                        Học thử miễn phí
+                    </button>
+                </div>
+            </div>
+
+            <!-- Right side image -->
+            <div class="md:w-1/2 flex justify-center">
+                <div class="relative w-64 h-64 md:w-80 md:h-80">
+                    <div class="absolute inset-0 bg-blue-500 rounded-full"></div>
+                    <img src="a10.png" alt="Student"
+                        class="absolute top-0 left-0 w-full h-full object-cover rounded-full" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Partners Section - Now outside the container div to span full width -->
+    <div class="bg-gray-100 py-16">
+        <div class="container mx-auto px-4">
+            <h2 class="text-2xl font-medium mb-12 text-center">
+                Chúng tôi hợp tác với <span class="text-blue-600 font-bold">hơn 350 trường đại học và công ty hàng đầu</span>
+            </h2>
+
+            <div class="flex flex-wrap justify-center items-center gap-8 md:gap-12">
+                <img src="a1.png" alt="University of Illinois" class="h-8 md:h-10">
+                <img src="a2.png" alt="Duke" class="h-8 md:h-10">
+                <img src="a3.png" alt="Google" class="h-8 md:h-10">
+                <img src="a4.png" alt="University of Michigan" class="h-8 md:h-10">
+                <img src="a5.png" alt="IBM" class="h-8 md:h-10">
+                <img src="a6.png" alt="Imperial College London" class="h-8 md:h-10">
+                <img src="a7.png" alt="Stanford" class="h-8 md:h-10">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section>
+    <div>
+        <h2 class="text-2xl font-bold text-center mt-6 text-gray-900 dark:text-white">Top khóa học được học nhiều nhất
+            trong
+            tuần qua</h2>
+        <div class="container mx-auto px-4 py-8">
+            <div class="mb-4 grid gap-4 sm:grid-cols-2 md:mb-8 lg:grid-cols-3 xl:grid-cols-4">
+                <!-- Team Member Cards -->
+                <div *ngFor="let member of visibleMembers"
+                    class="rounded-lg border border-gray-200 bg-white p-6 shadow-sm dark:border-gray-700 dark:bg-gray-800">
+                    <div class="h-56 w-full">
+                        <a href="#">
+                            <img class="mx-auto h-full object-cover rounded-lg" [src]="member.imageUrl"
+                                alt="{{member.name}}" />
+                        </a>
+                    </div>
+                    <div class="pt-6">
+                        <a href="#"
+                            class="text-lg font-semibold leading-tight text-gray-900 hover:underline dark:text-white">{{member.name}}</a>
+                        <p class="mt-1 text-sm font-medium text-gray-500 dark:text-gray-400">{{member.position}}</p>
+
+                        <ul class="mt-4 flex items-center gap-4">
+                            <li class="flex items-center gap-2">
+                                <svg class="h-4 w-4 text-gray-500 dark:text-gray-400" aria-hidden="true"
+                                    xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                        stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6" />
+                                </svg>
+                                <p class="text-sm font-medium text-gray-500 dark:text-gray-400">Team Member</p>
+                            </li>
+
+                            <li class="flex items-center gap-2">
+                                <svg class="h-4 w-4 text-gray-500 dark:text-gray-400" aria-hidden="true"
+                                    xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                        stroke-width="2"
+                                        d="M8 12.2h1.5m0 0a3 3 0 1 0 3 3V8m-3 4.2V16c0 .8.8 2 2.5 2a3 3 0 0 0 3-3V9c0-.2 0-2-2-2-1 0-2.5.5-3 1.5" />
+                                </svg>
+                                <p class="text-sm font-medium text-gray-500 dark:text-gray-400">Frontend</p>
+                            </li>
+                        </ul>
+
+                        <div class="mt-4">
+                            <p class="text-sm text-gray-700 dark:text-gray-300">{{member.description}}</p>
+                        </div>
+
+                        <div class="mt-4 flex items-center justify-between gap-4">
+                            <button type="button"
+                                class="inline-flex w-full items-center justify-center rounded-lg bg-primary-700 px-5 py-2.5 text-sm font-medium text-white hover:bg-primary-800 focus:outline-none focus:ring-4 focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">
+                                <svg class="-ms-2 me-2 h-5 w-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                                    fill="none" viewBox="0 0 24 24">
+                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                        stroke-width="2" d="M19 9l-7 7-7-7" />
+                                </svg>
+                                View Profile
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Navigation Controls -->
+            <div class="flex justify-center items-center mt-6 space-x-2">
+                <div class="flex">
+                    <!-- Nút Previous -->
+                    <a (click)="prevSlide()"
+                        class="flex items-center justify-center px-4 h-10 me-3 text-base font-medium text-gray-500 bg-white border border-gray-300 rounded-lg hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white cursor-pointer">
+                        <svg class="w-3.5 h-3.5 me-2 rtl:rotate-180" aria-hidden="true"
+                            xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M13 5H1m0 0 4 4M1 5l4-4" />
+                        </svg>
+                        Previous
+                    </a>
+
+                    <!-- Nút Next -->
+                    <a (click)="nextSlide()"
+                        class="flex items-center justify-center px-4 h-10 text-base font-medium text-gray-500 bg-white border border-gray-300 rounded-lg hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white cursor-pointer">
+                        Next
+                        <svg class="w-3.5 h-3.5 ms-2 rtl:rotate-180" aria-hidden="true"
+                            xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M1 5h12m0 0L9 1m4 4L9 9" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>

@@ -1,0 +1,6 @@
+@FLearning.PaymentService_HostAddress = http://localhost:5244
+
+GET {{FLearning.PaymentService_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

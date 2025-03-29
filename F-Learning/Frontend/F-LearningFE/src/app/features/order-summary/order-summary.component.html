@@ -1,0 +1,225 @@
+<!-- OrderSummaryComponent.html -->
+<section class="bg-white py-16 mt-1 antialiased dark:bg-gray-900 md:py-16">
+  <div class="mx-auto max-w-screen-xl px-4 py-8 2xl:px-0">
+    <!-- Stepper - Keeping the same structure but highlighting the Order Summary step -->
+    <ol
+      class="items-center flex w-full max-w-2xl text-center text-sm font-medium text-gray-500 dark:text-gray-400 sm:text-base">
+      <li
+        class="after:border-1 flex items-center text-gray-500 after:mx-6 after:hidden after:h-1 after:w-full after:border-b after:border-gray-200 dark:text-gray-400 dark:after:border-gray-700 sm:after:inline-block sm:after:content-[''] md:w-full xl:after:mx-10">
+        <span
+          class="flex items-center after:mx-2 after:text-gray-200 after:content-['/'] dark:after:text-gray-500 sm:after:hidden">
+          <svg class="me-2 h-4 w-4 sm:h-5 sm:w-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24"
+            height="24" fill="none" viewBox="0 0 24 24">
+            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M8.5 11.5 11 14l4-4m6 2a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+          </svg>
+          Cart
+        </span>
+      </li>
+
+      <li
+        class="after:border-1 flex items-center text-gray-500 after:mx-6 after:hidden after:h-1 after:w-full after:border-b after:border-gray-200 dark:text-gray-400 dark:after:border-gray-700 sm:after:inline-block sm:after:content-[''] md:w-full xl:after:mx-10">
+        <span
+          class="flex items-center after:mx-2 after:text-gray-200 after:content-['/'] dark:after:text-gray-500 sm:after:hidden">
+          <svg class="me-2 h-4 w-4 sm:h-5 sm:w-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24"
+            height="24" fill="none" viewBox="0 0 24 24">
+            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M8.5 11.5 11 14l4-4m6 2a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+          </svg>
+          Checkout
+        </span>
+      </li>
+
+      <li class="flex shrink-0 items-center text-primary-700 dark:text-primary-500">
+        <svg class="me-2 h-4 w-4 sm:h-5 sm:w-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24"
+          height="24" fill="none" viewBox="0 0 24 24">
+          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+            d="M8.5 11.5 11 14l4-4m6 2a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+        </svg>
+        Order summary
+      </li>
+    </ol>
+
+    <!-- Order Summary Content -->
+    <div class="mt-6 sm:mt-8 lg:flex lg:items-start lg:gap-12 xl:gap-16">
+      <!-- Order Details Section -->
+      <div class="min-w-0 flex-1 space-y-8">
+        <div class="space-y-4">
+          <h2 class="text-xl font-semibold text-gray-900 dark:text-white">Order Summary</h2>
+          <p class="text-sm text-gray-500 dark:text-gray-400">Order #ORD-58269 | March 15, 2025</p>
+
+          <!-- Order Items -->
+          <div class="overflow-hidden rounded-lg border border-gray-200 dark:border-gray-700">
+            <div class="overflow-x-auto">
+              <table class="min-w-full divide-y divide-gray-200 dark:divide-gray-700">
+                <thead class="bg-gray-50 dark:bg-gray-800">
+                  <tr>
+                    <th scope="col"
+                      class="px-6 py-3 text-left text-xs font-medium uppercase tracking-wider text-gray-500 dark:text-gray-400">
+                      Product
+                    </th>
+                    <th scope="col"
+                      class="px-6 py-3 text-left text-xs font-medium uppercase tracking-wider text-gray-500 dark:text-gray-400">
+                      Quantity
+                    </th>
+                    <th scope="col"
+                      class="px-6 py-3 text-right text-xs font-medium uppercase tracking-wider text-gray-500 dark:text-gray-400">
+                      Price
+                    </th>
+                  </tr>
+                </thead>
+                <tbody class="divide-y divide-gray-200 bg-white dark:divide-gray-700 dark:bg-gray-900">
+                  <tr>
+                    <td class="whitespace-nowrap px-6 py-4">
+                      <div class="flex items-center">
+                        <div
+                          class="h-10 w-10 flex-shrink-0 overflow-hidden rounded-md border border-gray-200 dark:border-gray-700">
+                          <img src="https://via.placeholder.com/150" alt="Product image"
+                            class="h-full w-full object-cover object-center">
+                        </div>
+                        <div class="ml-4">
+                          <div class="text-sm font-medium text-gray-900 dark:text-white">Apple MacBook Pro 16"</div>
+                          <div class="text-sm text-gray-500 dark:text-gray-400">Space Gray / M2 Pro / 32GB RAM</div>
+                        </div>
+                      </div>
+                    </td>
+                    <td class="whitespace-nowrap px-6 py-4 text-sm text-gray-500 dark:text-gray-400">
+                      1
+                    </td>
+                    <td class="whitespace-nowrap px-6 py-4 text-right text-sm text-gray-900 dark:text-white">
+                      $3,499.00
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="whitespace-nowrap px-6 py-4">
+                      <div class="flex items-center">
+                        <div
+                          class="h-10 w-10 flex-shrink-0 overflow-hidden rounded-md border border-gray-200 dark:border-gray-700">
+                          <img src="https://via.placeholder.com/150" alt="Product image"
+                            class="h-full w-full object-cover object-center">
+                        </div>
+                        <div class="ml-4">
+                          <div class="text-sm font-medium text-gray-900 dark:text-white">Apple Pro Display XDR</div>
+                          <div class="text-sm text-gray-500 dark:text-gray-400">Standard Glass / VESA Mount</div>
+                        </div>
+                      </div>
+                    </td>
+                    <td class="whitespace-nowrap px-6 py-4 text-sm text-gray-500 dark:text-gray-400">
+                      1
+                    </td>
+                    <td class="whitespace-nowrap px-6 py-4 text-right text-sm text-gray-900 dark:text-white">
+                      $4,999.00
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="whitespace-nowrap px-6 py-4">
+                      <div class="flex items-center">
+                        <div
+                          class="h-10 w-10 flex-shrink-0 overflow-hidden rounded-md border border-gray-200 dark:border-gray-700">
+                          <img src="https://via.placeholder.com/150" alt="Product image"
+                            class="h-full w-full object-cover object-center">
+                        </div>
+                        <div class="ml-4">
+                          <div class="text-sm font-medium text-gray-900 dark:text-white">Magic Keyboard</div>
+                          <div class="text-sm text-gray-500 dark:text-gray-400">US English / With Numeric Keypad</div>
+                        </div>
+                      </div>
+                    </td>
+                    <td class="whitespace-nowrap px-6 py-4 text-sm text-gray-500 dark:text-gray-400">
+                      1
+                    </td>
+                    <td class="whitespace-nowrap px-6 py-4 text-right text-sm text-gray-900 dark:text-white">
+                      $129.00
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <!-- Delivery Information -->
+          <div class="mt-8 grid gap-6 md:grid-cols-2">
+            <!-- Shipping Address -->
+            <div class="rounded-lg border border-gray-200 bg-gray-50 p-6 dark:border-gray-700 dark:bg-gray-800">
+              <h3 class="mb-4 text-lg font-medium text-gray-900 dark:text-white">Shipping Address</h3>
+              <div class="space-y-2 text-sm text-gray-500 dark:text-gray-400">
+                <p class="font-medium text-gray-900 dark:text-white">Bonnie Green</p>
+                <p>123 Main Street</p>
+                <p>Apt 4B</p>
+                <p>San Francisco, CA 94103</p>
+                <p>United States</p>
+                <p>+1 (555) 123-4567</p>
+              </div>
+            </div>
+
+            <!-- Payment Method -->
+            <div class="rounded-lg border border-gray-200 bg-gray-50 p-6 dark:border-gray-700 dark:bg-gray-800">
+              <h3 class="mb-4 text-lg font-medium text-gray-900 dark:text-white">Payment Method</h3>
+              <div class="space-y-2 text-sm text-gray-500 dark:text-gray-400">
+                <div class="flex items-center gap-3">
+                  <svg class="h-8 w-10" viewBox="0 0 40 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect width="40" height="24" rx="4" fill="#252525" />
+                    <path d="M14.5 10.5H25.5" stroke="white" stroke-width="1.5" stroke-linecap="round"
+                      stroke-linejoin="round" />
+                    <path d="M14.5 14.5H19.5" stroke="white" stroke-width="1.5" stroke-linecap="round"
+                      stroke-linejoin="round" />
+                  </svg>
+                  <span class="font-medium text-gray-900 dark:text-white">Credit Card</span>
+                </div>
+                <p>Card ending in 4242</p>
+                <p>Expires 12/26</p>
+              </div>
+            </div>
+
+            <!-- Delivery Method -->
+            <div class="rounded-lg border border-gray-200 bg-gray-50 p-6 dark:border-gray-700 dark:bg-gray-800">
+              <h3 class="mb-4 text-lg font-medium text-gray-900 dark:text-white">Delivery Method</h3>
+              <div class="space-y-2 text-sm text-gray-500 dark:text-gray-400">
+                <p class="font-medium text-gray-900 dark:text-white">DHL Fast Delivery</p>
+                <p>Estimated delivery: March 16, 2025</p>
+                <p>Tracking number: <span
+                    class="font-medium text-primary-700 dark:text-primary-500">DHL5824792371</span></p>
+              </div>
+            </div>
+
+            <!-- Order Notes -->
+            <div class="rounded-lg border border-gray-200 bg-gray-50 p-6 dark:border-gray-700 dark:bg-gray-800">
+              <h3 class="mb-4 text-lg font-medium text-gray-900 dark:text-white">Order Notes</h3>
+              <div class="space-y-2 text-sm text-gray-500 dark:text-gray-400">
+                <p>Please leave package at the front door if no one answers.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Order Total Section -->
+      <div class="mt-6 w-full space-y-6 sm:mt-8 lg:mt-0 lg:max-w-xs xl:max-w-md">
+        <div
+          class="flow-root rounded-lg border border-gray-200 bg-white p-6 shadow-sm dark:border-gray-700 dark:bg-gray-800">
+          <h3 class="mb-4 text-lg font-medium text-gray-900 dark:text-white">Order Total</h3>
+          <div class="-my-3 divide-y divide-gray-200 dark:divide-gray-700">
+            <dl class="flex items-center justify-between gap-4 py-3">
+              <dt class="text-base font-normal text-gray-500 dark:text-gray-400">Subtotal</dt>
+              <dd class="text-base font-medium text-gray-900 dark:text-white">$8,627.00</dd>
+            </dl>
+
+            <dl class="flex items-center justify-between gap-4 py-3">
+              <dt class="text-base font-normal text-gray-500 dark:text-gray-400">Shipping</dt>
+              <dd class="text-base font-medium text-gray-900 dark:text-white">$15.00</dd>
+            </dl>
+
+            <dl class="flex items-center justify-between gap-4 py-3">
+              <dt class="text-base font-normal text-gray-500 dark:text-gray-400">Tax</dt>
+              <dd class="text-base font-medium text-gray-900 dark:text-white">$776.43</dd>
+            </dl>
+
+            <dl class="flex items-center justify-between gap-4 py-3">
+              <dt class="text-base font-normal text-gray-500 dark:text-gray-400">Discount</dt>
+              <dd class="text-base font-medium text-green-500">-$150.00</dd>
+            </dl>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>

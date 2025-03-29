@@ -1,0 +1,6 @@
+@FLearning.EnrollmentService_HostAddress = http://localhost:5213
+
+GET {{FLearning.EnrollmentService_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

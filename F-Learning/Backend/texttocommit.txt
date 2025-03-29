@@ -1,0 +1,1 @@
+Báo cáo chi tiết front-end, Back-end và tình hình test

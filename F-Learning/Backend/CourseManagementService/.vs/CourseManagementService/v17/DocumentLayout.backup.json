@@ -1,0 +1,1118 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\PRN231\\F-Learning\\Backend\\CourseManagementService\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|d:\\prn231\\f-learning\\backend\\coursemanagementservice\\coursemanagementservice\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|solutionrelative:coursemanagementservice\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|d:\\prn231\\f-learning\\backend\\coursemanagementservice\\coursemanagementservice\\repositories\\courserepository .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|solutionrelative:coursemanagementservice\\repositories\\courserepository .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|d:\\prn231\\f-learning\\backend\\coursemanagementservice\\coursemanagementservice\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|solutionrelative:coursemanagementservice\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|d:\\prn231\\f-learning\\backend\\coursemanagementservice\\coursemanagementservice\\repositories\\categoryrepository .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|solutionrelative:coursemanagementservice\\repositories\\categoryrepository .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|d:\\prn231\\f-learning\\backend\\coursemanagementservice\\coursemanagementservice\\repositories\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|solutionrelative:coursemanagementservice\\repositories\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|d:\\prn231\\f-learning\\backend\\coursemanagementservice\\coursemanagementservice\\controllers\\coursescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|solutionrelative:coursemanagementservice\\controllers\\coursescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|d:\\prn231\\f-learning\\backend\\coursemanagementservice\\coursemanagementservice\\controllers\\lessonscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|solutionrelative:coursemanagementservice\\controllers\\lessonscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|d:\\prn231\\f-learning\\backend\\coursemanagementservice\\coursemanagementservice\\dtos\\createlessonsbulkdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|solutionrelative:coursemanagementservice\\dtos\\createlessonsbulkdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|d:\\prn231\\f-learning\\backend\\coursemanagementservice\\coursemanagementservice\\dtos\\lessondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|solutionrelative:coursemanagementservice\\dtos\\lessondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|d:\\prn231\\f-learning\\backend\\coursemanagementservice\\coursemanagementservice\\repositories\\lessonrepository .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|solutionrelative:coursemanagementservice\\repositories\\lessonrepository .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|d:\\prn231\\f-learning\\backend\\coursemanagementservice\\coursemanagementservice\\repositories\\ilessonrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|solutionrelative:coursemanagementservice\\repositories\\ilessonrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|d:\\prn231\\f-learning\\backend\\coursemanagementservice\\coursemanagementservice\\repositories\\icourserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|solutionrelative:coursemanagementservice\\repositories\\icourserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|d:\\prn231\\f-learning\\backend\\coursemanagementservice\\coursemanagementservice\\dtos\\createlessondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|solutionrelative:coursemanagementservice\\dtos\\createlessondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|d:\\prn231\\f-learning\\backend\\coursemanagementservice\\coursemanagementservice\\controllers\\videocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|solutionrelative:coursemanagementservice\\controllers\\videocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|d:\\prn231\\f-learning\\backend\\coursemanagementservice\\coursemanagementservice\\dtos\\updatelessondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|solutionrelative:coursemanagementservice\\dtos\\updatelessondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|d:\\prn231\\f-learning\\backend\\coursemanagementservice\\coursemanagementservice\\models\\lesson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|solutionrelative:coursemanagementservice\\models\\lesson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|d:\\prn231\\f-learning\\backend\\coursemanagementservice\\coursemanagementservice\\models\\videoqualitypreset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|solutionrelative:coursemanagementservice\\models\\videoqualitypreset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|d:\\prn231\\f-learning\\backend\\coursemanagementservice\\coursemanagementservice\\service\\videoprocessingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|solutionrelative:coursemanagementservice\\service\\videoprocessingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|d:\\prn231\\f-learning\\backend\\coursemanagementservice\\coursemanagementservice\\models\\coursestatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|solutionrelative:coursemanagementservice\\models\\coursestatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|d:\\prn231\\f-learning\\backend\\coursemanagementservice\\coursemanagementservice\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|solutionrelative:coursemanagementservice\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|d:\\prn231\\f-learning\\backend\\coursemanagementservice\\coursemanagementservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|solutionrelative:coursemanagementservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|d:\\prn231\\f-learning\\backend\\coursemanagementservice\\coursemanagementservice\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|solutionrelative:coursemanagementservice\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|d:\\prn231\\f-learning\\backend\\coursemanagementservice\\coursemanagementservice\\migrations\\20250328193650_addvideofilenametolesson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|solutionrelative:coursemanagementservice\\migrations\\20250328193650_addvideofilenametolesson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|d:\\prn231\\f-learning\\backend\\coursemanagementservice\\coursemanagementservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|solutionrelative:coursemanagementservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|d:\\prn231\\f-learning\\backend\\coursemanagementservice\\coursemanagementservice\\dtos\\videometadatadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|solutionrelative:coursemanagementservice\\dtos\\videometadatadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|d:\\prn231\\f-learning\\backend\\coursemanagementservice\\coursemanagementservice\\coursemanagementservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|solutionrelative:coursemanagementservice\\coursemanagementservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|d:\\prn231\\f-learning\\backend\\coursemanagementservice\\coursemanagementservice\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|solutionrelative:coursemanagementservice\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|d:\\prn231\\f-learning\\backend\\coursemanagementservice\\coursemanagementservice\\migrations\\20250315143458_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|solutionrelative:coursemanagementservice\\migrations\\20250315143458_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|d:\\prn231\\f-learning\\backend\\coursemanagementservice\\coursemanagementservice\\data\\applicationdbcontext .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|solutionrelative:coursemanagementservice\\data\\applicationdbcontext .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|d:\\prn231\\f-learning\\backend\\coursemanagementservice\\coursemanagementservice\\dtos\\createcoursedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|solutionrelative:coursemanagementservice\\dtos\\createcoursedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|d:\\prn231\\f-learning\\backend\\coursemanagementservice\\coursemanagementservice\\dtos\\coursedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|solutionrelative:coursemanagementservice\\dtos\\coursedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|d:\\prn231\\f-learning\\backend\\coursemanagementservice\\coursemanagementservice\\dtos\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|solutionrelative:coursemanagementservice\\dtos\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|d:\\prn231\\f-learning\\backend\\coursemanagementservice\\coursemanagementservice\\dtos\\updatecoursedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|solutionrelative:coursemanagementservice\\dtos\\updatecoursedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 302,
+          "SelectedChildIndex": 124,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:11:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:14:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:19:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:18:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:18:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:33:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:34:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:436189107:0:{83107a3e-496a-485e-b455-16ddb978e55e}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:3:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{fbcae063-e2c0-4ab1-a516-996ea3dafb72}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{873151d0-cf2e-48cc-b4bf-ad0394f6a3c3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{c9c0ae26-aa77-11d2-b3f0-0000f87570ee}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1377497384:0:{83107a3e-496a-485e-b455-16ddb978e55e}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:15:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:16:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:17:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:14:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:13:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:12:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:11:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:10:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:9:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:8:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:7:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:6:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:5:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:4:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:3:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1928210406:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:350743133:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:4:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:5:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:6:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:12:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:13:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:8:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:70:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:71:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:69:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:73:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:72:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:54:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:63:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:64:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:65:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:135:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:136:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:137:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:138:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:144:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:146:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:148:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:149:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:150:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:151:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:152:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:153:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:154:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:147:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0504ff91-9d61-11d0-a794-00a0c9110051}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:9:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:15:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:16:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:10:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:7:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:26:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f53-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{f5cd1b51-c771-5648-966f-646d419b1e7c}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:148:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:144:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:146:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:142:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:136:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:138:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:135:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:139:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:137:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:138:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:38:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:69:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:125:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:28:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:31:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:37:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LessonsController.cs",
+              "DocumentMoniker": "D:\\PRN231\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\Controllers\\LessonsController.cs",
+              "RelativeDocumentMoniker": "CourseManagementService\\Controllers\\LessonsController.cs",
+              "ToolTip": "D:\\PRN231\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\Controllers\\LessonsController.cs",
+              "RelativeToolTip": "CourseManagementService\\Controllers\\LessonsController.cs",
+              "ViewState": "AgIAAMEAAAAAAAAAAAAAAKsAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T02:51:49.942Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CoursesController.cs",
+              "DocumentMoniker": "D:\\PRN231\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\Controllers\\CoursesController.cs",
+              "RelativeDocumentMoniker": "CourseManagementService\\Controllers\\CoursesController.cs",
+              "ToolTip": "D:\\PRN231\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\Controllers\\CoursesController.cs",
+              "RelativeToolTip": "CourseManagementService\\Controllers\\CoursesController.cs",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAawG4AAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T02:51:27.845Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ICategoryRepository.cs",
+              "DocumentMoniker": "D:\\PRN231\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\Repositories\\ICategoryRepository.cs",
+              "RelativeDocumentMoniker": "CourseManagementService\\Repositories\\ICategoryRepository.cs",
+              "ToolTip": "D:\\PRN231\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\Repositories\\ICategoryRepository.cs",
+              "RelativeToolTip": "CourseManagementService\\Repositories\\ICategoryRepository.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAEwAsAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T02:47:09.938Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CategoryRepository .cs",
+              "DocumentMoniker": "D:\\PRN231\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\Repositories\\CategoryRepository .cs",
+              "RelativeDocumentMoniker": "CourseManagementService\\Repositories\\CategoryRepository .cs",
+              "ToolTip": "D:\\PRN231\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\Repositories\\CategoryRepository .cs",
+              "RelativeToolTip": "CourseManagementService\\Repositories\\CategoryRepository .cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAYwBkAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T02:47:41.91Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Category.cs",
+              "DocumentMoniker": "D:\\PRN231\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "CourseManagementService\\Models\\Category.cs",
+              "ToolTip": "D:\\PRN231\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\Models\\Category.cs",
+              "RelativeToolTip": "CourseManagementService\\Models\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T02:25:25.492Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CourseRepository .cs",
+              "DocumentMoniker": "D:\\PRN231\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\Repositories\\CourseRepository .cs",
+              "RelativeDocumentMoniker": "CourseManagementService\\Repositories\\CourseRepository .cs",
+              "ToolTip": "D:\\PRN231\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\Repositories\\CourseRepository .cs",
+              "RelativeToolTip": "CourseManagementService\\Repositories\\CourseRepository .cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAkwCgAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T02:45:33.153Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Course.cs",
+              "DocumentMoniker": "D:\\PRN231\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\Models\\Course.cs",
+              "RelativeDocumentMoniker": "CourseManagementService\\Models\\Course.cs",
+              "ToolTip": "D:\\PRN231\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\Models\\Course.cs",
+              "RelativeToolTip": "CourseManagementService\\Models\\Course.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T02:25:00.721Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CreateLessonDto.cs",
+              "DocumentMoniker": "D:\\PRN231\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\DTOs\\CreateLessonDto.cs",
+              "RelativeDocumentMoniker": "CourseManagementService\\DTOs\\CreateLessonDto.cs",
+              "ToolTip": "D:\\PRN231\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\DTOs\\CreateLessonDto.cs",
+              "RelativeToolTip": "CourseManagementService\\DTOs\\CreateLessonDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T02:42:40.537Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ILessonRepository.cs",
+              "DocumentMoniker": "D:\\PRN231\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\Repositories\\ILessonRepository.cs",
+              "RelativeDocumentMoniker": "CourseManagementService\\Repositories\\ILessonRepository.cs",
+              "ToolTip": "D:\\PRN231\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\Repositories\\ILessonRepository.cs",
+              "RelativeToolTip": "CourseManagementService\\Repositories\\ILessonRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T02:49:14.399Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "LessonRepository .cs",
+              "DocumentMoniker": "D:\\PRN231\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\Repositories\\LessonRepository .cs",
+              "RelativeDocumentMoniker": "CourseManagementService\\Repositories\\LessonRepository .cs",
+              "ToolTip": "D:\\PRN231\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\Repositories\\LessonRepository .cs",
+              "RelativeToolTip": "CourseManagementService\\Repositories\\LessonRepository .cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAqwDsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T02:49:51.674Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ICourseRepository.cs",
+              "DocumentMoniker": "D:\\PRN231\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\Repositories\\ICourseRepository.cs",
+              "RelativeDocumentMoniker": "CourseManagementService\\Repositories\\ICourseRepository.cs",
+              "ToolTip": "D:\\PRN231\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\Repositories\\ICourseRepository.cs",
+              "RelativeToolTip": "CourseManagementService\\Repositories\\ICourseRepository.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAjwAwAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T02:44:47.719Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "LessonDto.cs",
+              "DocumentMoniker": "D:\\PRN231\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\DTOs\\LessonDto.cs",
+              "RelativeDocumentMoniker": "CourseManagementService\\DTOs\\LessonDto.cs",
+              "ToolTip": "D:\\PRN231\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\DTOs\\LessonDto.cs",
+              "RelativeToolTip": "CourseManagementService\\DTOs\\LessonDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T02:41:53.127Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CreateLessonsBulkDto.cs",
+              "DocumentMoniker": "D:\\PRN231\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\DTOs\\CreateLessonsBulkDto.cs",
+              "RelativeDocumentMoniker": "CourseManagementService\\DTOs\\CreateLessonsBulkDto.cs",
+              "ToolTip": "D:\\PRN231\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\DTOs\\CreateLessonsBulkDto.cs",
+              "RelativeToolTip": "CourseManagementService\\DTOs\\CreateLessonsBulkDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T21:22:44.109Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Lesson.cs",
+              "DocumentMoniker": "D:\\PRN231\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\Models\\Lesson.cs",
+              "RelativeDocumentMoniker": "CourseManagementService\\Models\\Lesson.cs",
+              "ToolTip": "D:\\PRN231\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\Models\\Lesson.cs",
+              "RelativeToolTip": "CourseManagementService\\Models\\Lesson.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T02:24:26.232Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "VideoController.cs",
+              "DocumentMoniker": "D:\\PRN231\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\Controllers\\VideoController.cs",
+              "RelativeDocumentMoniker": "CourseManagementService\\Controllers\\VideoController.cs",
+              "ToolTip": "D:\\PRN231\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\Controllers\\VideoController.cs",
+              "RelativeToolTip": "CourseManagementService\\Controllers\\VideoController.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAYwBQAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T19:31:34.796Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "VideoQualityPreset.cs",
+              "DocumentMoniker": "D:\\PRN231\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\Models\\VideoQualityPreset.cs",
+              "RelativeDocumentMoniker": "CourseManagementService\\Models\\VideoQualityPreset.cs",
+              "ToolTip": "D:\\PRN231\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\Models\\VideoQualityPreset.cs",
+              "RelativeToolTip": "CourseManagementService\\Models\\VideoQualityPreset.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T19:29:44.917Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "UpdateLessonDto.cs",
+              "DocumentMoniker": "D:\\PRN231\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\DTOs\\UpdateLessonDto.cs",
+              "RelativeDocumentMoniker": "CourseManagementService\\DTOs\\UpdateLessonDto.cs",
+              "ToolTip": "D:\\PRN231\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\DTOs\\UpdateLessonDto.cs",
+              "RelativeToolTip": "CourseManagementService\\DTOs\\UpdateLessonDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T02:42:59.456Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "VideoProcessingService.cs",
+              "DocumentMoniker": "D:\\PRN231\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\Service\\VideoProcessingService.cs",
+              "RelativeDocumentMoniker": "CourseManagementService\\Service\\VideoProcessingService.cs",
+              "ToolTip": "D:\\PRN231\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\Service\\VideoProcessingService.cs",
+              "RelativeToolTip": "CourseManagementService\\Service\\VideoProcessingService.cs",
+              "ViewState": "AgIAAM4AAAAAAAAAAAAuwPEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T19:28:36.545Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "CourseStatus.cs",
+              "DocumentMoniker": "D:\\PRN231\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\Models\\CourseStatus.cs",
+              "RelativeDocumentMoniker": "CourseManagementService\\Models\\CourseStatus.cs",
+              "ToolTip": "D:\\PRN231\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\Models\\CourseStatus.cs",
+              "RelativeToolTip": "CourseManagementService\\Models\\CourseStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAYAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T02:23:16.057Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "CategoriesController.cs",
+              "DocumentMoniker": "D:\\PRN231\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\Controllers\\CategoriesController.cs",
+              "RelativeDocumentMoniker": "CourseManagementService\\Controllers\\CategoriesController.cs",
+              "ToolTip": "D:\\PRN231\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\Controllers\\CategoriesController.cs",
+              "RelativeToolTip": "CourseManagementService\\Controllers\\CategoriesController.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAgwD8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T03:12:28.254Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ApplicationDbContextModelSnapshot.cs",
+              "DocumentMoniker": "D:\\PRN231\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "CourseManagementService\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ToolTip": "D:\\PRN231\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeToolTip": "CourseManagementService\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwBcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T14:36:23.056Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\PRN231\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\Program.cs",
+              "RelativeDocumentMoniker": "CourseManagementService\\Program.cs",
+              "ToolTip": "D:\\PRN231\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\Program.cs",
+              "RelativeToolTip": "CourseManagementService\\Program.cs",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAAACEAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T03:14:19.982Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "20250328193650_AddVideoFileNameToLesson.cs",
+              "DocumentMoniker": "D:\\PRN231\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\Migrations\\20250328193650_AddVideoFileNameToLesson.cs",
+              "RelativeDocumentMoniker": "CourseManagementService\\Migrations\\20250328193650_AddVideoFileNameToLesson.cs",
+              "ToolTip": "D:\\PRN231\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\Migrations\\20250328193650_AddVideoFileNameToLesson.cs",
+              "RelativeToolTip": "CourseManagementService\\Migrations\\20250328193650_AddVideoFileNameToLesson.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T19:36:50.795Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\PRN231\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\appsettings.json",
+              "RelativeDocumentMoniker": "CourseManagementService\\appsettings.json",
+              "ToolTip": "D:\\PRN231\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\appsettings.json",
+              "RelativeToolTip": "CourseManagementService\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-14T03:16:20.658Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "VideoMetadataDto.cs",
+              "DocumentMoniker": "D:\\PRN231\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\DTOs\\VideoMetadataDto.cs",
+              "RelativeDocumentMoniker": "CourseManagementService\\DTOs\\VideoMetadataDto.cs",
+              "ToolTip": "D:\\PRN231\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\DTOs\\VideoMetadataDto.cs",
+              "RelativeToolTip": "CourseManagementService\\DTOs\\VideoMetadataDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T19:30:48.784Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "CourseManagementService.csproj",
+              "DocumentMoniker": "D:\\PRN231\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\CourseManagementService.csproj",
+              "RelativeDocumentMoniker": "CourseManagementService\\CourseManagementService.csproj",
+              "ToolTip": "D:\\PRN231\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\CourseManagementService.csproj",
+              "RelativeToolTip": "CourseManagementService\\CourseManagementService.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-26T03:50:25.398Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\PRN231\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "CourseManagementService\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\PRN231\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\Properties\\launchSettings.json",
+              "RelativeToolTip": "CourseManagementService\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAkwBIAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-26T04:04:58.234Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "20250315143458_InitialCreate.cs",
+              "DocumentMoniker": "D:\\PRN231\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\Migrations\\20250315143458_InitialCreate.cs",
+              "RelativeDocumentMoniker": "CourseManagementService\\Migrations\\20250315143458_InitialCreate.cs",
+              "ToolTip": "D:\\PRN231\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\Migrations\\20250315143458_InitialCreate.cs",
+              "RelativeToolTip": "CourseManagementService\\Migrations\\20250315143458_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T14:36:25.585Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ApplicationDbContext .cs",
+              "DocumentMoniker": "D:\\PRN231\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\Data\\ApplicationDbContext .cs",
+              "RelativeDocumentMoniker": "CourseManagementService\\Data\\ApplicationDbContext .cs",
+              "ToolTip": "D:\\PRN231\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\Data\\ApplicationDbContext .cs",
+              "RelativeToolTip": "CourseManagementService\\Data\\ApplicationDbContext .cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T02:26:04.454Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "CategoryDto.cs",
+              "DocumentMoniker": "D:\\PRN231\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\DTOs\\CategoryDto.cs",
+              "RelativeDocumentMoniker": "CourseManagementService\\DTOs\\CategoryDto.cs",
+              "ToolTip": "D:\\PRN231\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\DTOs\\CategoryDto.cs",
+              "RelativeToolTip": "CourseManagementService\\DTOs\\CategoryDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T02:41:30.007Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "CreateCourseDto.cs",
+              "DocumentMoniker": "D:\\PRN231\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\DTOs\\CreateCourseDto.cs",
+              "RelativeDocumentMoniker": "CourseManagementService\\DTOs\\CreateCourseDto.cs",
+              "ToolTip": "D:\\PRN231\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\DTOs\\CreateCourseDto.cs",
+              "RelativeToolTip": "CourseManagementService\\DTOs\\CreateCourseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T02:39:02.127Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "CourseDto.cs",
+              "DocumentMoniker": "D:\\PRN231\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\DTOs\\CourseDto.cs",
+              "RelativeDocumentMoniker": "CourseManagementService\\DTOs\\CourseDto.cs",
+              "ToolTip": "D:\\PRN231\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\DTOs\\CourseDto.cs",
+              "RelativeToolTip": "CourseManagementService\\DTOs\\CourseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T01:36:57.844Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "UpdateCourseDto.cs",
+              "DocumentMoniker": "D:\\PRN231\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\DTOs\\UpdateCourseDto.cs",
+              "RelativeDocumentMoniker": "CourseManagementService\\DTOs\\UpdateCourseDto.cs",
+              "ToolTip": "D:\\PRN231\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\DTOs\\UpdateCourseDto.cs",
+              "RelativeToolTip": "CourseManagementService\\DTOs\\UpdateCourseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T02:39:29.375Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 427,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:27:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{c93a910a-0fa6-4307-93a4-f2bd61ec7828}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:29:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{5b6781c0-e99d-11d0-9954-00a0c91bc8e5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:12:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:13:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:38:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:39:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:40:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:42:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:142:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:139:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:140:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:141:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:143:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:145:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

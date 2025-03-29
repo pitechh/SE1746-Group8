@@ -1,0 +1,346 @@
+D:\FPT\TERM 8- FPT\PRN231_new\Project\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\appsettings.Development.json
+D:\FPT\TERM 8- FPT\PRN231_new\Project\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\appsettings.json
+D:\FPT\TERM 8- FPT\PRN231_new\Project\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\FLearning.EnrollmentService.exe
+D:\FPT\TERM 8- FPT\PRN231_new\Project\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\FLearning.EnrollmentService.deps.json
+D:\FPT\TERM 8- FPT\PRN231_new\Project\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\FLearning.EnrollmentService.runtimeconfig.json
+D:\FPT\TERM 8- FPT\PRN231_new\Project\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\FLearning.EnrollmentService.dll
+D:\FPT\TERM 8- FPT\PRN231_new\Project\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\FLearning.EnrollmentService.pdb
+D:\FPT\TERM 8- FPT\PRN231_new\Project\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\AutoMapper.dll
+D:\FPT\TERM 8- FPT\PRN231_new\Project\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\FPT\TERM 8- FPT\PRN231_new\Project\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\Azure.Core.dll
+D:\FPT\TERM 8- FPT\PRN231_new\Project\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\Azure.Identity.dll
+D:\FPT\TERM 8- FPT\PRN231_new\Project\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\Humanizer.dll
+D:\FPT\TERM 8- FPT\PRN231_new\Project\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\FPT\TERM 8- FPT\PRN231_new\Project\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\Microsoft.Build.Locator.dll
+D:\FPT\TERM 8- FPT\PRN231_new\Project\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+D:\FPT\TERM 8- FPT\PRN231_new\Project\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\FPT\TERM 8- FPT\PRN231_new\Project\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\FPT\TERM 8- FPT\PRN231_new\Project\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\FPT\TERM 8- FPT\PRN231_new\Project\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+D:\FPT\TERM 8- FPT\PRN231_new\Project\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+D:\FPT\TERM 8- FPT\PRN231_new\Project\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+D:\FPT\TERM 8- FPT\PRN231_new\Project\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\FPT\TERM 8- FPT\PRN231_new\Project\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\FPT\TERM 8- FPT\PRN231_new\Project\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\FPT\TERM 8- FPT\PRN231_new\Project\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\FPT\TERM 8- FPT\PRN231_new\Project\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\FPT\TERM 8- FPT\PRN231_new\Project\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
+D:\FPT\TERM 8- FPT\PRN231_new\Project\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+D:\FPT\TERM 8- FPT\PRN231_new\Project\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\FPT\TERM 8- FPT\PRN231_new\Project\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+D:\FPT\TERM 8- FPT\PRN231_new\Project\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\FPT\TERM 8- FPT\PRN231_new\Project\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+D:\FPT\TERM 8- FPT\PRN231_new\Project\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+D:\FPT\TERM 8- FPT\PRN231_new\Project\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\FPT\TERM 8- FPT\PRN231_new\Project\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+D:\FPT\TERM 8- FPT\PRN231_new\Project\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+D:\FPT\TERM 8- FPT\PRN231_new\Project\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+D:\FPT\TERM 8- FPT\PRN231_new\Project\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\FPT\TERM 8- FPT\PRN231_new\Project\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\FPT\TERM 8- FPT\PRN231_new\Project\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\FPT\TERM 8- FPT\PRN231_new\Project\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\FPT\TERM 8- FPT\PRN231_new\Project\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\FPT\TERM 8- FPT\PRN231_new\Project\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\FPT\TERM 8- FPT\PRN231_new\Project\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\FPT\TERM 8- FPT\PRN231_new\Project\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\Microsoft.OpenApi.dll
+D:\FPT\TERM 8- FPT\PRN231_new\Project\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+D:\FPT\TERM 8- FPT\PRN231_new\Project\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+D:\FPT\TERM 8- FPT\PRN231_new\Project\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\Mono.TextTemplating.dll
+D:\FPT\TERM 8- FPT\PRN231_new\Project\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\FPT\TERM 8- FPT\PRN231_new\Project\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\FPT\TERM 8- FPT\PRN231_new\Project\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\FPT\TERM 8- FPT\PRN231_new\Project\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\System.ClientModel.dll
+D:\FPT\TERM 8- FPT\PRN231_new\Project\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\System.CodeDom.dll
+D:\FPT\TERM 8- FPT\PRN231_new\Project\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+D:\FPT\TERM 8- FPT\PRN231_new\Project\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\System.Composition.Convention.dll
+D:\FPT\TERM 8- FPT\PRN231_new\Project\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\System.Composition.Hosting.dll
+D:\FPT\TERM 8- FPT\PRN231_new\Project\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\System.Composition.Runtime.dll
+D:\FPT\TERM 8- FPT\PRN231_new\Project\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\System.Composition.TypedParts.dll
+D:\FPT\TERM 8- FPT\PRN231_new\Project\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+D:\FPT\TERM 8- FPT\PRN231_new\Project\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
+D:\FPT\TERM 8- FPT\PRN231_new\Project\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\System.Drawing.Common.dll
+D:\FPT\TERM 8- FPT\PRN231_new\Project\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\System.Formats.Asn1.dll
+D:\FPT\TERM 8- FPT\PRN231_new\Project\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\FPT\TERM 8- FPT\PRN231_new\Project\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\System.IO.Pipelines.dll
+D:\FPT\TERM 8- FPT\PRN231_new\Project\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\System.Memory.Data.dll
+D:\FPT\TERM 8- FPT\PRN231_new\Project\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\System.Runtime.Caching.dll
+D:\FPT\TERM 8- FPT\PRN231_new\Project\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+D:\FPT\TERM 8- FPT\PRN231_new\Project\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\System.Security.Permissions.dll
+D:\FPT\TERM 8- FPT\PRN231_new\Project\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\System.Text.Encodings.Web.dll
+D:\FPT\TERM 8- FPT\PRN231_new\Project\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\System.Text.Json.dll
+D:\FPT\TERM 8- FPT\PRN231_new\Project\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\System.Windows.Extensions.dll
+D:\FPT\TERM 8- FPT\PRN231_new\Project\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\FPT\TERM 8- FPT\PRN231_new\Project\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\FPT\TERM 8- FPT\PRN231_new\Project\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\FPT\TERM 8- FPT\PRN231_new\Project\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\FPT\TERM 8- FPT\PRN231_new\Project\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\FPT\TERM 8- FPT\PRN231_new\Project\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\FPT\TERM 8- FPT\PRN231_new\Project\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\FPT\TERM 8- FPT\PRN231_new\Project\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\FPT\TERM 8- FPT\PRN231_new\Project\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\FPT\TERM 8- FPT\PRN231_new\Project\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\FPT\TERM 8- FPT\PRN231_new\Project\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\FPT\TERM 8- FPT\PRN231_new\Project\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\FPT\TERM 8- FPT\PRN231_new\Project\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\FPT\TERM 8- FPT\PRN231_new\Project\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\FPT\TERM 8- FPT\PRN231_new\Project\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\FPT\TERM 8- FPT\PRN231_new\Project\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\FPT\TERM 8- FPT\PRN231_new\Project\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\FPT\TERM 8- FPT\PRN231_new\Project\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\FPT\TERM 8- FPT\PRN231_new\Project\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\FPT\TERM 8- FPT\PRN231_new\Project\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\FPT\TERM 8- FPT\PRN231_new\Project\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\FPT\TERM 8- FPT\PRN231_new\Project\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\FPT\TERM 8- FPT\PRN231_new\Project\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\FPT\TERM 8- FPT\PRN231_new\Project\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\FPT\TERM 8- FPT\PRN231_new\Project\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\FPT\TERM 8- FPT\PRN231_new\Project\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\FPT\TERM 8- FPT\PRN231_new\Project\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\FPT\TERM 8- FPT\PRN231_new\Project\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\FPT\TERM 8- FPT\PRN231_new\Project\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\FPT\TERM 8- FPT\PRN231_new\Project\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\FPT\TERM 8- FPT\PRN231_new\Project\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\FPT\TERM 8- FPT\PRN231_new\Project\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\FPT\TERM 8- FPT\PRN231_new\Project\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\FPT\TERM 8- FPT\PRN231_new\Project\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\FPT\TERM 8- FPT\PRN231_new\Project\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\FPT\TERM 8- FPT\PRN231_new\Project\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\FPT\TERM 8- FPT\PRN231_new\Project\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\FPT\TERM 8- FPT\PRN231_new\Project\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\FPT\TERM 8- FPT\PRN231_new\Project\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\FPT\TERM 8- FPT\PRN231_new\Project\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\FPT\TERM 8- FPT\PRN231_new\Project\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\FPT\TERM 8- FPT\PRN231_new\Project\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\FPT\TERM 8- FPT\PRN231_new\Project\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\FPT\TERM 8- FPT\PRN231_new\Project\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\FPT\TERM 8- FPT\PRN231_new\Project\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\FPT\TERM 8- FPT\PRN231_new\Project\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\FPT\TERM 8- FPT\PRN231_new\Project\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\FPT\TERM 8- FPT\PRN231_new\Project\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\FPT\TERM 8- FPT\PRN231_new\Project\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\FPT\TERM 8- FPT\PRN231_new\Project\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\FPT\TERM 8- FPT\PRN231_new\Project\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\FPT\TERM 8- FPT\PRN231_new\Project\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\FPT\TERM 8- FPT\PRN231_new\Project\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\FPT\TERM 8- FPT\PRN231_new\Project\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\FPT\TERM 8- FPT\PRN231_new\Project\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\FPT\TERM 8- FPT\PRN231_new\Project\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\FPT\TERM 8- FPT\PRN231_new\Project\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\FPT\TERM 8- FPT\PRN231_new\Project\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\FPT\TERM 8- FPT\PRN231_new\Project\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\FPT\TERM 8- FPT\PRN231_new\Project\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\FPT\TERM 8- FPT\PRN231_new\Project\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\FPT\TERM 8- FPT\PRN231_new\Project\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\FPT\TERM 8- FPT\PRN231_new\Project\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\FPT\TERM 8- FPT\PRN231_new\Project\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\FPT\TERM 8- FPT\PRN231_new\Project\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\FPT\TERM 8- FPT\PRN231_new\Project\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\FPT\TERM 8- FPT\PRN231_new\Project\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\FPT\TERM 8- FPT\PRN231_new\Project\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\FPT\TERM 8- FPT\PRN231_new\Project\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\FPT\TERM 8- FPT\PRN231_new\Project\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\FPT\TERM 8- FPT\PRN231_new\Project\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\FPT\TERM 8- FPT\PRN231_new\Project\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\FPT\TERM 8- FPT\PRN231_new\Project\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\FPT\TERM 8- FPT\PRN231_new\Project\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\FPT\TERM 8- FPT\PRN231_new\Project\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\FPT\TERM 8- FPT\PRN231_new\Project\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\FPT\TERM 8- FPT\PRN231_new\Project\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+D:\FPT\TERM 8- FPT\PRN231_new\Project\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\FPT\TERM 8- FPT\PRN231_new\Project\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\obj\Debug\net8.0\FLearning.EnrollmentService.csproj.AssemblyReference.cache
+D:\FPT\TERM 8- FPT\PRN231_new\Project\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\obj\Debug\net8.0\FLearning.EnrollmentService.GeneratedMSBuildEditorConfig.editorconfig
+D:\FPT\TERM 8- FPT\PRN231_new\Project\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\obj\Debug\net8.0\FLearning.EnrollmentService.AssemblyInfoInputs.cache
+D:\FPT\TERM 8- FPT\PRN231_new\Project\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\obj\Debug\net8.0\FLearning.EnrollmentService.AssemblyInfo.cs
+D:\FPT\TERM 8- FPT\PRN231_new\Project\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\obj\Debug\net8.0\FLearning.EnrollmentService.csproj.CoreCompileInputs.cache
+D:\FPT\TERM 8- FPT\PRN231_new\Project\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\obj\Debug\net8.0\FLearning.EnrollmentService.MvcApplicationPartsAssemblyInfo.cs
+D:\FPT\TERM 8- FPT\PRN231_new\Project\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\obj\Debug\net8.0\FLearning.EnrollmentService.MvcApplicationPartsAssemblyInfo.cache
+D:\FPT\TERM 8- FPT\PRN231_new\Project\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\obj\Debug\net8.0\FLearning.EnrollmentService.sourcelink.json
+D:\FPT\TERM 8- FPT\PRN231_new\Project\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\obj\Debug\net8.0\staticwebassets.build.json
+D:\FPT\TERM 8- FPT\PRN231_new\Project\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\obj\Debug\net8.0\staticwebassets.development.json
+D:\FPT\TERM 8- FPT\PRN231_new\Project\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\obj\Debug\net8.0\staticwebassets\msbuild.FLearning.EnrollmentService.Microsoft.AspNetCore.StaticWebAssets.props
+D:\FPT\TERM 8- FPT\PRN231_new\Project\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\obj\Debug\net8.0\staticwebassets\msbuild.build.FLearning.EnrollmentService.props
+D:\FPT\TERM 8- FPT\PRN231_new\Project\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.FLearning.EnrollmentService.props
+D:\FPT\TERM 8- FPT\PRN231_new\Project\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.FLearning.EnrollmentService.props
+D:\FPT\TERM 8- FPT\PRN231_new\Project\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\obj\Debug\net8.0\staticwebassets.pack.json
+D:\FPT\TERM 8- FPT\PRN231_new\Project\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\obj\Debug\net8.0\scopedcss\bundle\FLearning.EnrollmentService.styles.css
+D:\FPT\TERM 8- FPT\PRN231_new\Project\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\obj\Debug\net8.0\FLearnin.53DA2CEB.Up2Date
+D:\FPT\TERM 8- FPT\PRN231_new\Project\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\obj\Debug\net8.0\FLearning.EnrollmentService.dll
+D:\FPT\TERM 8- FPT\PRN231_new\Project\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\obj\Debug\net8.0\refint\FLearning.EnrollmentService.dll
+D:\FPT\TERM 8- FPT\PRN231_new\Project\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\obj\Debug\net8.0\FLearning.EnrollmentService.pdb
+D:\FPT\TERM 8- FPT\PRN231_new\Project\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\obj\Debug\net8.0\FLearning.EnrollmentService.genruntimeconfig.cache
+D:\FPT\TERM 8- FPT\PRN231_new\Project\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\obj\Debug\net8.0\ref\FLearning.EnrollmentService.dll
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\appsettings.Development.json
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\appsettings.json
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\FLearning.EnrollmentService.staticwebassets.endpoints.json
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\FLearning.EnrollmentService.exe
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\FLearning.EnrollmentService.deps.json
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\FLearning.EnrollmentService.runtimeconfig.json
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\FLearning.EnrollmentService.dll
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\FLearning.EnrollmentService.pdb
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\AutoMapper.dll
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\Azure.Core.dll
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\Azure.Identity.dll
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\Humanizer.dll
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\Microsoft.Build.Locator.dll
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\Microsoft.OpenApi.dll
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\Mono.TextTemplating.dll
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\System.ClientModel.dll
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\System.CodeDom.dll
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\System.Composition.Convention.dll
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\System.Composition.Hosting.dll
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\System.Composition.Runtime.dll
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\System.Composition.TypedParts.dll
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\System.Drawing.Common.dll
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\System.Formats.Asn1.dll
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\System.IO.Pipelines.dll
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\System.Memory.Data.dll
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\System.Runtime.Caching.dll
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\System.Security.Permissions.dll
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\System.Text.Encodings.Web.dll
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\System.Text.Json.dll
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\System.Windows.Extensions.dll
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\obj\Debug\net8.0\FLearning.EnrollmentService.csproj.AssemblyReference.cache
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\obj\Debug\net8.0\FLearning.EnrollmentService.GeneratedMSBuildEditorConfig.editorconfig
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\obj\Debug\net8.0\FLearning.EnrollmentService.AssemblyInfoInputs.cache
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\obj\Debug\net8.0\FLearning.EnrollmentService.AssemblyInfo.cs
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\obj\Debug\net8.0\FLearning.EnrollmentService.csproj.CoreCompileInputs.cache
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\obj\Debug\net8.0\FLearning.EnrollmentService.MvcApplicationPartsAssemblyInfo.cs
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\obj\Debug\net8.0\FLearning.EnrollmentService.MvcApplicationPartsAssemblyInfo.cache
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\obj\Debug\net8.0\FLearning.EnrollmentService.sourcelink.json
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\obj\Debug\net8.0\scopedcss\bundle\FLearning.EnrollmentService.styles.css
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\obj\Debug\net8.0\staticwebassets.build.json
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\obj\Debug\net8.0\staticwebassets.development.json
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\obj\Debug\net8.0\staticwebassets\msbuild.FLearning.EnrollmentService.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\obj\Debug\net8.0\staticwebassets\msbuild.FLearning.EnrollmentService.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\obj\Debug\net8.0\staticwebassets\msbuild.build.FLearning.EnrollmentService.props
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.FLearning.EnrollmentService.props
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.FLearning.EnrollmentService.props
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\obj\Debug\net8.0\staticwebassets.pack.json
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\obj\Debug\net8.0\FLearnin.53DA2CEB.Up2Date
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\obj\Debug\net8.0\FLearning.EnrollmentService.dll
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\obj\Debug\net8.0\refint\FLearning.EnrollmentService.dll
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\obj\Debug\net8.0\FLearning.EnrollmentService.pdb
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\obj\Debug\net8.0\FLearning.EnrollmentService.genruntimeconfig.cache
+D:\Ki10\F-Learning\Backend\F-Learning_Back-End\FLearning.EnrollmentService\obj\Debug\net8.0\ref\FLearning.EnrollmentService.dll

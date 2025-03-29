@@ -1,0 +1,12 @@
+D:\FPT\TERM 8- FPT\PRN231_new\Project_NEW\F-Learning\Backend\F-Learning_Back-End\SharedLibrary\bin\Debug\net6.0\SharedLibrary.deps.json
+D:\FPT\TERM 8- FPT\PRN231_new\Project_NEW\F-Learning\Backend\F-Learning_Back-End\SharedLibrary\bin\Debug\net6.0\SharedLibrary.dll
+D:\FPT\TERM 8- FPT\PRN231_new\Project_NEW\F-Learning\Backend\F-Learning_Back-End\SharedLibrary\bin\Debug\net6.0\SharedLibrary.pdb
+D:\FPT\TERM 8- FPT\PRN231_new\Project_NEW\F-Learning\Backend\F-Learning_Back-End\SharedLibrary\obj\Debug\net6.0\SharedLibrary.GeneratedMSBuildEditorConfig.editorconfig
+D:\FPT\TERM 8- FPT\PRN231_new\Project_NEW\F-Learning\Backend\F-Learning_Back-End\SharedLibrary\obj\Debug\net6.0\SharedLibrary.AssemblyInfoInputs.cache
+D:\FPT\TERM 8- FPT\PRN231_new\Project_NEW\F-Learning\Backend\F-Learning_Back-End\SharedLibrary\obj\Debug\net6.0\SharedLibrary.AssemblyInfo.cs
+D:\FPT\TERM 8- FPT\PRN231_new\Project_NEW\F-Learning\Backend\F-Learning_Back-End\SharedLibrary\obj\Debug\net6.0\SharedLibrary.csproj.CoreCompileInputs.cache
+D:\FPT\TERM 8- FPT\PRN231_new\Project_NEW\F-Learning\Backend\F-Learning_Back-End\SharedLibrary\obj\Debug\net6.0\SharedLibrary.sourcelink.json
+D:\FPT\TERM 8- FPT\PRN231_new\Project_NEW\F-Learning\Backend\F-Learning_Back-End\SharedLibrary\obj\Debug\net6.0\SharedLibrary.dll
+D:\FPT\TERM 8- FPT\PRN231_new\Project_NEW\F-Learning\Backend\F-Learning_Back-End\SharedLibrary\obj\Debug\net6.0\refint\SharedLibrary.dll
+D:\FPT\TERM 8- FPT\PRN231_new\Project_NEW\F-Learning\Backend\F-Learning_Back-End\SharedLibrary\obj\Debug\net6.0\SharedLibrary.pdb
+D:\FPT\TERM 8- FPT\PRN231_new\Project_NEW\F-Learning\Backend\F-Learning_Back-End\SharedLibrary\obj\Debug\net6.0\ref\SharedLibrary.dll

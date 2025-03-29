@@ -1,0 +1,172 @@
+<!-- course-view.component.html -->
+<div class="flex flex-col h-screen bg-gray-50">
+    <!-- Top navigation bar -->
+    <div class="flex items-center justify-between bg-white shadow px-4 py-2">
+        <div class="flex items-center">
+            <button type="button" class="text-gray-500 hover:text-gray-700">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path>
+                </svg>
+            </button>
+
+            <div class="flex items-center ml-4">
+                <div class="bg-red-500 text-white font-bold rounded-full w-10 h-10 flex items-center justify-center">
+                    {{courseLogo}}
+                </div>
+                <span class="ml-2 font-medium">{{courseTitle}}</span>
+            </div>
+        </div>
+
+        <div class="flex items-center space-x-4">
+            <div class="text-gray-600 text-sm">
+                <span class="font-medium">{{courseProgress}}%</span>
+                <span class="mx-1">|</span>
+                <span>{{currentLessonNumber}} bài học</span>
+            </div>
+
+            <button type="button" class="flex items-center text-gray-600 hover:text-gray-800">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z">
+                    </path>
+                </svg>
+                <span class="ml-1">Ghi chú</span>
+            </button>
+
+            <button type="button" class="flex items-center text-gray-600 hover:text-gray-800">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z">
+                    </path>
+                </svg>
+                <span class="ml-1">Hướng dẫn</span>
+            </button>
+        </div>
+    </div>
+
+    <!-- Main content area -->
+    <div class="flex flex-1 overflow-hidden">
+        <!-- Content area -->
+        <div class="flex-1 overflow-y-auto p-6">
+            <div class="max-w-4xl mx-auto">
+                <!-- Video player placeholder -->
+                <div class="relative bg-gray-900 rounded-lg aspect-video mb-8 flex items-center justify-center">
+                    <div
+                        class="w-20 h-20 bg-red-500 rounded-full flex items-center justify-center opacity-80 hover:opacity-100 cursor-pointer">
+                        <svg class="w-10 h-10 text-white" fill="currentColor" viewBox="0 0 20 20"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd"
+                                d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z"
+                                clip-rule="evenodd"></path>
+                        </svg>
+                    </div>
+                    <div
+                        class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black to-transparent h-24 opacity-70">
+                    </div>
+                </div>
+
+                <!-- Lesson title and metadata -->
+                <h1 class="text-2xl font-bold mb-2">{{currentLesson.title}}</h1>
+                <p class="text-sm text-gray-600 mb-6">{{currentLesson.updatedAt}}</p>
+
+                <!-- Add note button -->
+                <button type="button"
+                    class="mb-8 bg-gray-100 hover:bg-gray-200 text-gray-700 py-2 px-4 rounded-md flex items-center">
+                    <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path>
+                    </svg>
+                    Thêm ghi chú tại 00:00
+                </button>
+
+                <!-- Navigation buttons -->
+                <div class="flex justify-between mt-8">
+                    <button type="button" (click)="previousLesson()"
+                        class="flex items-center bg-white border border-gray-300 hover:bg-gray-50 text-gray-700 py-2 px-4 rounded-md">
+                        <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7">
+                            </path>
+                        </svg>
+                        BÀI TRƯỚC
+                    </button>
+
+                    <button type="button" (click)="nextLesson()"
+                        class="flex items-center bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded-md">
+                        BÀI TIẾP THEO
+                        <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7">
+                            </path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Course outline sidebar -->
+        <div class="w-80 bg-white border-l overflow-y-auto">
+            <div class="p-4 border-b">
+                <h2 class="text-lg font-medium">Nội dung khóa học</h2>
+            </div>
+
+            <!-- Course modules -->
+            <div class="divide-y">
+                <div *ngFor="let module of courseModules" class="border-b">
+                    <!-- Module header -->
+                    <div (click)="toggleModule(module.id)"
+                        class="p-4 cursor-pointer hover:bg-gray-50 flex items-center justify-between">
+                        <div>
+                            <h3 class="font-medium">{{module.id}}. {{module.title}}</h3>
+                            <div class="text-sm text-gray-500">{{module.progress}} | {{module.duration}}</div>
+                        </div>
+                        <svg [ngClass]="{'transform rotate-180': module.expanded}" class="w-5 h-5 transition-transform"
+                            fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7">
+                            </path>
+                        </svg>
+                    </div>
+
+                    <!-- Module lessons -->
+                    <div *ngIf="module.expanded" class="bg-gray-50">
+                        <div *ngFor="let lesson of module.lessons" [ngClass]="{'bg-red-50': lesson.active}"
+                            class="p-4 border-b border-gray-100 hover:bg-gray-100">
+                            <div class="flex items-start">
+                                <div class="flex-shrink-0 mr-3">
+                                    <div *ngIf="lesson.completed"
+                                        class="w-5 h-5 rounded-full bg-green-500 flex items-center justify-center">
+                                        <svg class="w-3 h-3 text-white" fill="currentColor" viewBox="0 0 20 20"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd"
+                                                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                                                clip-rule="evenodd"></path>
+                                        </svg>
+                                    </div>
+                                    <div *ngIf="!lesson.completed && !lesson.locked"
+                                        class="w-5 h-5 rounded-full border-2 border-gray-300"></div>
+                                    <div *ngIf="lesson.locked" class="w-5 h-5 flex items-center justify-center">
+                                        <svg class="w-4 h-4 text-gray-400" fill="currentColor" viewBox="0 0 20 20"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd"
+                                                d="M5 9V7a5 5 0 0110 0v2a2 2 0 012 2v5a2 2 0 01-2 2H5a2 2 0 01-2-2v-5a2 2 0 012-2zm8-2v2H7V7a3 3 0 016 0z"
+                                                clip-rule="evenodd"></path>
+                                        </svg>
+                                    </div>
+                                </div>
+                                <div class="flex-1">
+                                    <h4 [ngClass]="{'text-red-500': lesson.active}" class="text-sm font-medium">
+                                        {{module.id}}.{{lesson.id}}. {{lesson.title}}</h4>
+                                    <div class="text-xs text-gray-500">{{lesson.duration}}</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

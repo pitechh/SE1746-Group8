@@ -1,0 +1,261 @@
+<app-toast *ngIf="showToast" [message]="toastMessage" [type]="toastType" (close)="showToast = false">
+</app-toast>
+
+<div class="relative overflow-x-auto pt-14 mt-1">
+  <div class="bg-white dark:bg-gray-800 relative shadow-md sm:rounded-lg overflow-hidden">
+    <h1 class="text-xl font-semibold text-gray-900 sm:text-2xl dark:text-white px-4 pt-2">
+      All Courses
+    </h1>
+
+    <div class="flex flex-col md:flex-row items-center justify-between space-y-3 md:space-y-0 md:space-x-4 p-4">
+      <div class="items-center hidden mb-3 sm:flex sm:divide-x sm:divide-gray-100 sm:mb-0 dark:divide-gray-700">
+        <form class="lg:pr-3" #searchForm="ngForm">
+          <label for="courses-search" class="sr-only">Search</label>
+          <div class="relative mt-1 lg:w-64 xl:w-96">
+            <input
+              type="text"
+              name="searchTerm"
+              id="courses-search"
+              [(ngModel)]="searchTerm"
+              (ngModelChange)="onSearchChange()"
+              class="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500"
+              placeholder="Search for courses"
+            />
+          </div>
+        </form>
+      </div>
+
+      <div class="flex items-center ml-auto space-x-2 sm:space-x-3">
+        <button
+          type="button"
+          (click)="openCreateModal()"
+          class="inline-flex items-center justify-center w-1/2 px-3 py-2 text-sm font-medium text-center text-white rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 sm:w-auto dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
+        >
+          <svg
+            class="w-5 h-5 mr-2 -ml-1"
+            fill="currentColor"
+            viewBox="0 0 20 20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M10 5a1 1 0 011 1v3h3a1 1 0 110 2h-3v3a1 1 0 11-2 0v-3H6a1 1 0 110-2h3V6a1 1 0 011-1z"
+              clip-rule="evenodd"
+            ></path>
+          </svg>
+          Add Course
+        </button>
+      </div>
+    </div>
+
+    <!-- Table -->
+    <table class="w-full text-sm text-left text-gray-500 table-fixed">
+      <thead class="text-xs text-gray-700 uppercase bg-gray-100">
+        <tr>
+          <th scope="col" class="px-6 py-3 w-12">ID</th>
+          <th scope="col" class="px-6 py-3">TITLE</th>
+          <th scope="col" class="px-6 py-3">DESCRIPTION</th>
+          <th scope="col" class="px-6 py-3">PRICE</th>
+          <th scope="col" class="px-6 py-3">THUMBNAIL-URL</th>
+          <th scope="col" class="px-6 py-3">CATEGORY</th>
+          <th scope="col" class="px-6 py-3">STATUS</th>
+          <th scope="col" class="px-6 py-3">ACTION</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr
+          *ngFor="let course of paginationCourses; let i = index"
+          class="bg-white border-b hover:bg-gray-50"
+        >
+          <td class="px-6 py-4">
+            {{ (currentPage - 1) * pageSize + i + 1 }}
+          </td>
+          <td class="px-6 py-4 font-medium text-gray-900 truncate">
+            {{ course.title }}
+          </td>
+          <td class="px-6 py-4 truncate">
+            {{ course.description }}
+          </td>
+          <td class="px-6 py-4">
+            {{ course.price | currency:'VND':'symbol' }}
+          </td>
+          <td class="px-6 py-4">
+            {{ course.thumbnailUrl}}
+          </td>
+          <td class="px-6 py-4 truncate">
+            {{ course.categoryName || 'Uncategorized' }}
+          </td>
+
+          <td class="px-6 py-4 truncate">
+            {{ 
+              course.status === '1' ? 'Published' : 
+              course.status === '2' ? 'Archived' : 
+              course.status === '3' ? 'Draft' : 
+              course.status 
+            }}
+          </td>
+          <td class="px-6 py-4 flex gap-2">
+            <button
+              type="button"
+              (click)="openUpdateModal(course)"
+              class="text-white bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 font-medium rounded-lg text-xs px-2 py-1.5 inline-flex items-center dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
+            >
+              <svg
+                class="w-4 h-4 text-white dark:text-white mr-1"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                fill="none"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="m14.304 4.844 2.852 2.852M7 7H4a1 1 0 0 0-1 1v10a1 1 0 0 0 1 1h11a1 1 0 0 0 1-1v-4.5m2.409-9.91a2.017 2.017 0 0 1 0 2.853l-6.844 6.844L8 14l.713-3.565 6.844-6.844a2.015 2.015 0 0 1 2.852 0Z"
+                />
+              </svg>
+              Update
+            </button>
+            <button
+              type="button"
+              (click)="openDeleteModal(course)"
+              class="text-white bg-red-700 hover:bg-red-800 focus:ring-4 focus:ring-red-300 font-medium rounded-lg text-xs px-2 py-1.5 inline-flex items-center dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-800"
+            >
+              <svg
+                class="w-4 h-4 text-white dark:text-white mr-1"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                fill="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M8.586 2.586A2 2 0 0 1 10 2h4a2 2 0 0 1 2 2v2h3a1 1 0 1 1 0 2v12a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V8a1 1 0 0 1 0-2h3V4a2 2 0 0 1 .586-1.414ZM10 6h4V4h-4v2Zm1 4a1 1 0 1 0-2 0v8a1 1 0 1 0 2 0v-8Zm4 0a1 1 0 1 0-2 0v8a1 1 0 1 0 2 0v-8Z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+              Delete
+            </button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!-- Pagination -->
+    <nav
+      class="flex flex-col md:flex-row justify-between items-start md:items-center space-y-3 md:space-y-0 p-4"
+      aria-label="Table navigation"
+    >
+      <span class="text-sm font-normal text-gray-500 dark:text-gray-400">
+        Showing
+        <span class="font-semibold text-gray-900 dark:text-white">
+          {{ (currentPage - 1) * pageSize + 1 }}-{{
+            currentPage * pageSize > totalItems
+              ? totalItems
+              : currentPage * pageSize
+          }}
+        </span>
+        of
+        <span class="font-semibold text-gray-900 dark:text-white">{{
+          totalItems
+        }}</span>
+      </span>
+      <ul class="inline-flex items-stretch -space-x-px">
+        <li>
+          <a
+            href="#"
+            (click)="previousPage(); $event.preventDefault()"
+            class="flex items-center justify-center h-full py-1.5 px-3 ml-0 text-gray-500 bg-white rounded-l-lg border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white"
+            [class.opacity-50]="currentPage === 1"
+            [class.cursor-not-allowed]="currentPage === 1"
+          >
+            <span class="sr-only">Previous</span>
+            <svg
+              class="w-5 h-5"
+              aria-hidden="true"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z"
+                clip-rule="evenodd"
+              />
+            </svg>
+          </a>
+        </li>
+        <li *ngFor="let page of getPageNumbers()">
+          <a
+            href="#"
+            (click)="goToPage(page); $event.preventDefault()"
+            class="flex items-center justify-center text-sm py-2 px-3 leading-tight border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white"
+            [class.text-primary-600]="page === currentPage"
+            [class.bg-primary-50]="page === currentPage"
+            [class.border-primary-300]="page === currentPage"
+          >
+            {{ page }}
+          </a>
+        </li>
+        <li>
+          <a
+            href="#"
+            (click)="nextPage(); $event.preventDefault()"
+            class="flex items-center justify-center h-full py-1.5 px-3 leading-tight text-gray-500 bg-white rounded-r-lg border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white"
+            [class.opacity-50]="currentPage === totalPages"
+            [class.cursor-not-allowed]="currentPage === totalPages"
+          >
+            <span class="sr-only">Next</span>
+            <svg
+              class="w-5 h-5"
+              aria-hidden="true"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
+                clip-rule="evenodd"
+              />
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</div>
+
+<!-- Delete Modal -->
+<div
+  *ngIf="showDeleteModal"
+  class="fixed inset-0 bg-gray-600 bg-opacity-50 flex items-center justify-center z-50"
+>
+  <delete-courses
+    *ngIf="showDeleteModal"
+    [courses]="selectedCourse"
+    (save)="onConfirmDelete($event)"
+    (close)="closeDeleteModal()"
+  >
+  </delete-courses>
+</div>
+
+<!-- Create/Update Modal -->
+<div
+  *ngIf="showCreateOrUpdateModal"
+  class="fixed inset-0 bg-gray-600 bg-opacity-50 flex items-center justify-center z-50"
+>
+  <create-or-update-courses
+    [courses]="selectedCourse"
+    [categories]="categoryList"
+    (save)="onSaveCourse($event)"
+    (close)="closeCreateOrUpdateModal()"
+    
+  >
+  </create-or-update-courses>
+</div>
