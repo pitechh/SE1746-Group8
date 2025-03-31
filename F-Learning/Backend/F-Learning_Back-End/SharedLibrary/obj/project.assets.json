@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\FPT\\TERM 8- FPT\\PRN231_new\\Project_NEW\\F-Learning\\Backend\\F-Learning_Back-End\\SharedLibrary\\SharedLibrary.csproj",
+      "projectUniqueName": "D:\\FPT\\TERM 8- FPT\\PRN231_new\\Project\\F-Learning\\Backend\\F-Learning_Back-End\\SharedLibrary\\SharedLibrary.csproj",
       "projectName": "SharedLibrary",
-      "projectPath": "D:\\FPT\\TERM 8- FPT\\PRN231_new\\Project_NEW\\F-Learning\\Backend\\F-Learning_Back-End\\SharedLibrary\\SharedLibrary.csproj",
+      "projectPath": "D:\\FPT\\TERM 8- FPT\\PRN231_new\\Project\\F-Learning\\Backend\\F-Learning_Back-End\\SharedLibrary\\SharedLibrary.csproj",
       "packagesPath": "C:\\Users\\trung\\.nuget\\packages\\",
-      "outputPath": "D:\\FPT\\TERM 8- FPT\\PRN231_new\\Project_NEW\\F-Learning\\Backend\\F-Learning_Back-End\\SharedLibrary\\obj\\",
+      "outputPath": "D:\\FPT\\TERM 8- FPT\\PRN231_new\\Project\\F-Learning\\Backend\\F-Learning_Back-End\\SharedLibrary\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

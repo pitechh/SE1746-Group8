@@ -3,7 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.12.35707.178
 MinimumVisualStudioVersion = 10.0.40219.1
-<<<<<<< HEAD
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FLearning.PaymentService", "FLearning.PaymentService\FLearning.PaymentService.csproj", "{993625AE-51E8-46F2-8087-1EDF8FFB3A04}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FLearning.EnrollmentService", "FLearning.EnrollmentService\FLearning.EnrollmentService.csproj", "{7EA2A5CD-AA5E-4288-8A2D-C8AFB16D7816}"
@@ -12,10 +11,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AuthenticationService", "..
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CourseManagementService", "..\CourseManagementService\CourseManagementService\CourseManagementService.csproj", "{C798FC8A-7139-4800-AF02-EAC90B5DB8BD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharedLibrary", "SharedLibrary\SharedLibrary.csproj", "{3143A23F-ADF8-48EC-9E67-A3BAB7D23D4F}"
-=======
-
->>>>>>> main
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SharedLibrary", "SharedLibrary\SharedLibrary.csproj", "{3143A23F-ADF8-48EC-9E67-A3BAB7D23D4F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FLearning.AnalyticsService", "FLearning.AnalyticsService\FLearning.AnalyticsService.csproj", "{F809B5CA-9D8A-4C5D-9438-AC06FEE0496D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FLearning.ContentService", "FLearning.ContentService\FLearning.ContentService.csproj", "{5445D185-0B21-45D2-A00B-B1CDE8181BC3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FLearning.NotificationService", "FLearning.NotificationService\FLearning.NotificationService.csproj", "{5578988A-6547-442D-B077-0650CEE55454}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,7 +25,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-<<<<<<< HEAD
 		{993625AE-51E8-46F2-8087-1EDF8FFB3A04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{993625AE-51E8-46F2-8087-1EDF8FFB3A04}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{993625AE-51E8-46F2-8087-1EDF8FFB3A04}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -44,9 +45,18 @@ Global
 		{3143A23F-ADF8-48EC-9E67-A3BAB7D23D4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3143A23F-ADF8-48EC-9E67-A3BAB7D23D4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3143A23F-ADF8-48EC-9E67-A3BAB7D23D4F}.Release|Any CPU.Build.0 = Release|Any CPU
-=======
-
->>>>>>> main
+		{F809B5CA-9D8A-4C5D-9438-AC06FEE0496D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F809B5CA-9D8A-4C5D-9438-AC06FEE0496D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F809B5CA-9D8A-4C5D-9438-AC06FEE0496D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F809B5CA-9D8A-4C5D-9438-AC06FEE0496D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5445D185-0B21-45D2-A00B-B1CDE8181BC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5445D185-0B21-45D2-A00B-B1CDE8181BC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5445D185-0B21-45D2-A00B-B1CDE8181BC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5445D185-0B21-45D2-A00B-B1CDE8181BC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5578988A-6547-442D-B077-0650CEE55454}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5578988A-6547-442D-B077-0650CEE55454}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5578988A-6547-442D-B077-0650CEE55454}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5578988A-6547-442D-B077-0650CEE55454}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

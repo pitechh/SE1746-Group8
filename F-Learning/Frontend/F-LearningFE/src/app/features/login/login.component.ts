@@ -40,9 +40,7 @@ export class LoginComponent implements OnInit {
             // Gọi getUserInfo để lấy thông tin người dùng (bao gồm roles)
             this.authService.getUserInfo(response.token).subscribe({
               next: (user: AuthenticatedUser) => {
-                // (Tùy chọn) Lưu thông tin user vào AuthService
                 this.authService.setCurrentUser(user);
-                // Lấy roles từ thông tin user
                 const userRoles = user.roles;
                 // Điều hướng dựa trên roles
                 if (userRoles) {

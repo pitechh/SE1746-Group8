@@ -4,12 +4,12 @@ import { Routes } from '@angular/router';
 import { HomePageComponent } from './home-page.component';
 import { LandingpageComponent } from '../../features/landingpage/landingpage.component';
 import { CheckoutComponent } from '../../features/checkout/checkout.component';
-import { OrderSummaryComponent } from '../../features/order-summary/order-summary.component';
 import { CourseDetailComponent } from '../../features/course-detail/course-detail.component';
 import { CourseStudyComponent } from '../../features/course-study/course-study.component';
 import { RoleGuard } from '../../core/guards/RoleGuard.guard';
 import { EnrollmentComponent } from '../../features/enrollment/enrollment.component';
 import { ProfileComponent } from '../../features/profile/profile.component';
+import { PaymentCallbackComponent } from '../../features/checkout/payment-callback/payment-callback.component';
 
 export const routes: Routes = [
   {
@@ -19,45 +19,43 @@ export const routes: Routes = [
       { path: 'landingpage', component: LandingpageComponent },
       { path: 'course', component: CourseComponent },
       {
-        path: 'checkout',
-        canActivate: [RoleGuard],
-        data: { roles: ['Student'] },
-        component: CheckoutComponent
+        path: 'coursedetail',
+        component: CourseDetailComponent,
       },
       {
         path: 'cart',
-        component: CartComponent
-      },
-      {
-        path: 'summary',
         canActivate: [RoleGuard],
-        data: { roles: ['Student'] },
-        component: OrderSummaryComponent
+        data: { roles: ['Admin', 'Instructor', 'Student'] },
+        component: CartComponent,
       },
       {
-        path: 'coursedetail',
-        component: CourseDetailComponent
+        path: 'checkout',
+        component: CheckoutComponent,
+      },
+      {
+        path: 'payment-callback',
+        component: PaymentCallbackComponent,
       },
       {
         path: 'enrollment',
-        component: EnrollmentComponent
+        component: EnrollmentComponent,
       },
       {
         path: 'profile',
-        component: ProfileComponent
+        component: ProfileComponent,
       },
+
       {
         path: '',
         redirectTo: 'landingpage',
-        pathMatch: 'full'
-      }
-    ]
+        pathMatch: 'full',
+      },
+    ],
   },
   { path: 'coursestudy', component: CourseStudyComponent },
 
   {
     path: '**',
-    redirectTo: ''
+    redirectTo: '',
   },
-
-]
+];

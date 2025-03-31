@@ -288,5 +288,21 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FLearning.PaymentService.Controllers.PaymentsController",
+    "Method": "UpdateStatusFromCallback",
+    "RelativePath": "api/Payments/update-status-from-callback",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "requestDto",
+        "Type": "FLearning.PaymentService.Models.DTOs.PaymentCallbackRequestDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   }
 ]

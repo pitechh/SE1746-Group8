@@ -234,24 +234,24 @@ namespace AuthenticationService.Services
 
             var token = await _userManager.GeneratePasswordResetTokenAsync(user);
 
-            // URL encode token để sử dụng an toàn trong URL
-            var encodedToken = WebUtility.UrlEncode(token);
 
-            // Tạo link reset password
-            var resetLink = $"{_baseUrl}/reset-password?email={WebUtility.UrlEncode(email)}&token={encodedToken}";
+
 
             // Nội dung email
             var subject = "Đặt lại mật khẩu";
             var message = $@"
-                <h2>Đặt lại mật khẩu</h2>
-                <p>Chào bạn,</p>
-                <p>Chúng tôi đã nhận được yêu cầu đặt lại mật khẩu cho tài khoản của bạn.</p>
-                <p>Vui lòng nhấn vào liên kết dưới đây để đặt lại mật khẩu:</p>
-                <p><a href='{resetLink}'>Đặt lại mật khẩu</a></p>
-                <p>Nếu bạn không yêu cầu đặt lại mật khẩu, vui lòng bỏ qua email này.</p>
-                <p>Liên kết này sẽ hết hạn sau 24 giờ.</p>
-                <p>Trân trọng,</p>
-                <p>Đội ngũ hỗ trợ</p>
+            <h2>Đặt lại mật khẩu</h2>
+            <p>Chào bạn,</p>
+            <p>Chúng tôi đã nhận được yêu cầu đặt lại mật khẩu cho tài khoản của bạn.</p>
+            <p><strong>Mã đặt lại mật khẩu của bạn:</strong></p>
+            <p style='font-size: 18px; background: #f5f5f5; padding: 10px; display: inline-block;'>
+            {token}
+            </p>
+            <p>Vui lòng truy cập trang đặt lại mật khẩu và nhập mã này cùng với email của bạn.</p>
+            <p>Nếu bạn không yêu cầu đặt lại mật khẩu, vui lòng bỏ qua email này.</p>
+            <p>Mã này sẽ hết hạn sau 24 giờ.</p>
+            <p>Trân trọng,</p>
+            <p>Đội ngũ hỗ trợ</p>
             ";
 
             await _emailService.SendEmailAsync(email, subject, message);

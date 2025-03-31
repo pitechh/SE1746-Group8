@@ -1,0 +1,32 @@
+<div class="fixed bottom-4 left-4 w-80 max-h-[500px] bg-white rounded-lg shadow-lg flex flex-col z-50">
+    <!-- Header -->
+    <div class="flex items-center justify-between p-3 bg-blue-600 text-white rounded-t-lg">
+      <span class="text-sm font-semibold">Chatbot Support</span>
+      <button (click)="toggleChat()" class="text-white focus:outline-none">
+        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+        </svg>
+      </button>
+    </div>
+  
+    <!-- Chat Body -->
+    <div *ngIf="isOpen" class="flex-1 overflow-y-auto p-3 space-y-2">
+      <div *ngFor="let message of messages" class="flex" [ngClass]="message.isUser ? 'justify-end' : 'justify-start'">
+        <div class="max-w-[70%] p-2 rounded-lg" [ngClass]="message.isUser ? 'bg-blue-500 text-white' : 'bg-gray-200 text-gray-900'">
+          {{ message.text }}
+        </div>
+      </div>
+    </div>
+  
+    <!-- Input Area -->
+    <div *ngIf="isOpen" class="p-3 border-t">
+      <form (ngSubmit)="sendMessage()" class="flex gap-2">
+        <input [(ngModel)]="userInput" name="userInput" type="text" placeholder="Nhập tin nhắn..." class="w-full p-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" />
+        <button type="submit" class="p-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600">
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8"></path>
+          </svg>
+        </button>
+      </form>
+    </div>
+  </div>

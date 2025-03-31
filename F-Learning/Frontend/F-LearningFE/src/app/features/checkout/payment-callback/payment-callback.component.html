@@ -1,0 +1,72 @@
+<section class="bg-white  py-16 mt-1 antialiased dark:bg-gray-900 md:py-16">
+  <div class="mx-auto max-w-screen-xl px-4 py-8 2xl:px-0">
+    <!-- Progress Tracker -->
+    <div class="w-full flex justify-center">
+      <ol
+        class="items-center flex w-full max-w-2xl text-center text-sm font-medium text-gray-500 dark:text-gray-400 sm:text-base">
+        <li
+          class="after:border-1 flex items-center text-primary-700 after:mx-6 after:hidden after:h-1 after:w-full after:border-b after:border-gray-200 dark:text-primary-500 dark:after:border-gray-700 sm:after:inline-block sm:after:content-[''] md:w-full xl:after:mx-10">
+          <span
+            class="flex items-center after:mx-2 after:text-gray-200 after:content-['/'] dark:after:text-gray-500 sm:after:hidden">
+            <svg class="me-2 h-4 w-4 sm:h-5 sm:w-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24"
+              height="24" fill="none" viewBox="0 0 24 24">
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M8.5 11.5 11 14l4-4m6 2a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+            </svg>
+            Cart
+          </span>
+        </li>
+        <li
+          class="after:border-1 flex items-center text-primary-700 after:mx-6 after:hidden after:h-1 after:w-full after:border-b after:border-gray-200 dark:text-primary-500 dark:after:border-gray-700 sm:after:inline-block sm:after:content-[''] md:w-full xl:after:mx-10">
+          <span
+            class="flex items-center after:mx-2 after:text-gray-200 after:content-['/'] dark:after:text-gray-500 sm:after:hidden">
+            <svg class="me-2 h-4 w-4 sm:h-5 sm:w-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24"
+              height="24" fill="none" viewBox="0 0 24 24">
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M8.5 11.5 11 14l4-4m6 2a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+            </svg>
+            Checkout
+          </span>
+        </li>
+        <li class="flex shrink-0 items-center text-primary-700 dark:text-primary-500">
+          <svg class="me-2 h-4 w-4 sm:h-5 sm:w-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24"
+            height="24" fill="none" viewBox="0 0 24 24">
+            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M8.5 11.5 11 14l4-4m6 2a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+          </svg>
+          Order summary
+        </li>
+      </ol>
+    </div>
+
+    <!-- Main Content -->
+    <h2 class="text-xl font-semibold mt-8 text-gray-900 dark:text-white sm:text-2xl mb-2">Thanks for your order!</h2>
+    <p class="text-gray-500 dark:text-gray-400 mb-6 md:mb-8">Your order <a href="#" class="font-medium text-gray-900 dark:text-white hover:underline">{{ orderId }}</a> has done</p>
+    <div class="space-y-4 sm:space-y-2 rounded-lg border border-gray-100 bg-gray-50 p-6 dark:border-gray-700 dark:bg-gray-800 mb-6 md:mb-8">
+      <dl class="sm:flex items-center justify-between gap-4">
+        <dt class="font-normal mb-1 sm:mb-0 text-gray-500 dark:text-gray-400">Date</dt>
+        <dd class="font-medium text-gray-900 dark:text-white sm:text-end">{{ responseTime }}</dd>
+      </dl>
+      <dl class="sm:flex items-center justify-between gap-4">
+        <dt class="font-normal mb-1 sm:mb-0 text-gray-500 dark:text-gray-400">Amount</dt>
+        <dd class="font-medium text-gray-900 dark:text-white sm:text-end">{{ amount | number }} VND</dd>
+      </dl>
+      <dl class="sm:flex items-center justify-between gap-4">
+        <dt class="font-normal mb-1 sm:mb-0 text-gray-500 dark:text-gray-400">Order Info</dt>
+        <dd class="font-medium text-gray-900 dark:text-white sm:text-end">{{ orderInfo }}</dd>
+      </dl>
+      <dl class="sm:flex items-center justify-between gap-4">
+        <dt class="font-normal mb-1 sm:mb-0 text-gray-500 dark:text-gray-400">Transaction ID</dt>
+        <dd class="font-medium text-gray-900 dark:text-white sm:text-end">{{ transId }}</dd>
+      </dl>
+      <dl class="sm:flex items-center justify-between gap-4">
+        <dt class="font-normal mb-1 sm:mb-0 text-gray-500 dark:text-gray-400">Message</dt>
+        <dd class="font-medium text-gray-900 dark:text-white sm:text-end">{{ localMessage }}</dd>
+      </dl>
+    </div>
+    <div class="flex items-center justify-end space-x-4">
+      <a href="#" class="text-white bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 dark:bg-primary-600 dark:hover:bg-primary-700 focus:outline-none dark:focus:ring-primary-800">Track your order</a>
+      <a (click)="goToHome()" class="py-2.5 px-5 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-primary-700 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">Return to shopping</a>
+</div>
+  </div>
+</section>

@@ -247,3 +247,10 @@
     (save)="confirmDeleteLesson($event)" 
     (close)="closeDeleteModal()">
 </delete-lesson>
+
+<update-lesson 
+  *ngIf="showCreateOrUpdateModal" 
+  [lesson]="selectedLesson" 
+  (save)="confirmUpdateLesson($event)" 
+  (close)="closeCreateOrUpdateModal()">
+</update-lesson>

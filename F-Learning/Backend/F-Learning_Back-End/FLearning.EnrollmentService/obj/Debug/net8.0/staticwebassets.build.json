@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "Hash": "VaeZfNEYWW5nrpeng37FYCJ49/LIvwOJL9jwnQURY5k=",
+  "Hash": "UXPnmAjnGkFPY17ojYOvtDBhG9lbZ1b2+Ls/spvqhPU=",
   "Source": "FLearning.EnrollmentService",
   "BasePath": "_content/FLearning.EnrollmentService",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [
     {
-      "Identity": "D:\\FPT\\TERM 8- FPT\\PRN231_new\\Project_NEW\\F-Learning\\Backend\\F-Learning_Back-End\\FLearning.PaymentService\\FLearning.PaymentService.csproj",
+      "Identity": "D:\\FPT\\TERM 8- FPT\\PRN231_new\\Project\\F-Learning\\Backend\\F-Learning_Back-End\\FLearning.PaymentService\\FLearning.PaymentService.csproj",
       "Version": 2,
       "Source": "FLearning.PaymentService",
       "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",

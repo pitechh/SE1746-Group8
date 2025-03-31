@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { Course } from '../interface/manage-course.interface';
 import { Categories } from '../../manage-categories/interface/manage-categories.interface';
+import { Flowbite } from '../../../core/decorator/flowbite.decorator';
 
 @Component({
   standalone: true,
@@ -10,6 +11,7 @@ import { Categories } from '../../manage-categories/interface/manage-categories.
   selector: 'create-or-update-courses',
   templateUrl: 'create-or-update-course.component.html',
 })
+@Flowbite()
 export class CreateOrUpdateCoursesComponent implements OnInit {
   @Input() courses: Course = { 
     title: '', 
@@ -23,12 +25,31 @@ export class CreateOrUpdateCoursesComponent implements OnInit {
   @Input() categories: Categories[] = []; // List of categories
   
   isEditMode: boolean = false;
+  imagePreview: string | ArrayBuffer | null = null;
 
   constructor() {}
 
   ngOnInit() {
     // If courses has an id, switch to edit mode
     this.isEditMode = !!this.courses.id;
+    if (this.courses.thumbnailUrl) {
+      this.imagePreview = `${this.courses.thumbnailUrl}`; // Giả sử ảnh nằm trong public/uploads
+    }
+  }
+
+  onFileChange(event: Event) {
+    const input = event.target as HTMLInputElement;
+    if (input.files && input.files.length > 0) {
+      const file = input.files[0];
+      this.courses.thumbnailUrl = file.name; // Chỉ lưu tên file (ví dụ: "image.jpg")
+
+      // Tạo preview cho ảnh
+      const reader = new FileReader();
+      reader.onload = () => {
+        this.imagePreview = reader.result;
+      };
+      reader.readAsDataURL(file);
+    }
   }
 
   onSubmit() {

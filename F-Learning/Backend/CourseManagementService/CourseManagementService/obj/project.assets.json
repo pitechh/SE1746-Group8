@@ -2531,23 +2531,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\LENOVO\\.nuget\\packages\\": {},
+    "C:\\Users\\trung\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\PRN231\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\CourseManagementService.csproj",
+      "projectUniqueName": "D:\\FPT\\TERM 8- FPT\\PRN231_new\\Project\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\CourseManagementService.csproj",
       "projectName": "CourseManagementService",
-      "projectPath": "D:\\PRN231\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\CourseManagementService.csproj",
-      "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
-      "outputPath": "D:\\PRN231\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\obj\\",
+      "projectPath": "D:\\FPT\\TERM 8- FPT\\PRN231_new\\Project\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\CourseManagementService.csproj",
+      "packagesPath": "C:\\Users\\trung\\.nuget\\packages\\",
+      "outputPath": "D:\\FPT\\TERM 8- FPT\\PRN231_new\\Project\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\trung\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -2556,6 +2556,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -2573,8 +2574,7 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      },
-      "SdkAnalysisLevel": "9.0.200"
+      }
     },
     "frameworks": {
       "net6.0": {
@@ -2622,7 +2622,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }

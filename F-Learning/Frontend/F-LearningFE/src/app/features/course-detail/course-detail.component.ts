@@ -1,89 +1,131 @@
+import { Lesson } from './../manage-lesson/interface/manage-lesson.interface';
 import { CommonModule } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
 import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser';
+import { ActivatedRoute, Router } from '@angular/router';
+import { CourseService } from '../manage-course/services/manage-course.service';
+import { Course } from '../manage-course/interface/manage-course.interface';
+import { LessonsService } from '../manage-lesson/services/manage-lesson.service';
+import { CartService } from '../cart/services/cart.service';
+import { EnrollmentService } from '../../core/services/enroll.service';
+import { AuthService } from '../../core/services/auth.service';
+import { AuthenticatedUser } from '../../core/interfaces/user.interface';
 
-interface CourseModule {
-    id: number;
-    title: string;
-    lessonsCount: number;
-    expanded: boolean;
-    lessons?: Lesson[];
-}
-
-interface Lesson {
-    id: number;
-    title: string;
-    duration: string;
-}
 @Component({
-    standalone: true,
-    imports: [CommonModule],
-    selector: 'app-course-detail',
-    templateUrl: 'course-detail.component.html'
+  standalone: true,
+  imports: [CommonModule],
+  selector: 'app-course-detail',
+  templateUrl: 'course-detail.component.html',
 })
-
 export class CourseDetailComponent implements OnInit {
-    isPlaying = false;
-    videoUrl: SafeResourceUrl | null = null;
-    modules: CourseModule[] = [
-        {
-            id: 1,
-            title: 'Khái niệm kỹ thuật cần biết',
-            lessonsCount: 3,
-            expanded: false
-        },
-        {
-            id: 2,
-            title: 'Môi trường, con người IT',
-            lessonsCount: 3,
-            expanded: false,
-            lessons: [
-                { id: 7, title: 'Phương pháp học lập trình của Admin F8?', duration: '24:06' },
-                { id: 8, title: 'Làm sao để có thu nhập cao và đi xa hơn trong ngành IT?', duration: '25:40' },
-                { id: 9, title: '8 lời khuyên giúp học lập trình tại F8 hiệu quả hơn!', duration: '06:27' },
-                { id: 10, title: 'Tại sao nên học trên website này hơn là học trên Youtube?', duration: '08:14' }
-            ]
-        },
-        {
-            id: 3,
-            title: 'Phương pháp, định hướng',
-            lessonsCount: 4,
-            expanded: false,
-            lessons: [
-                { id: 7, title: 'Phương pháp học lập trình của Admin F8?', duration: '24:06' },
-                { id: 8, title: 'Làm sao để có thu nhập cao và đi xa hơn trong ngành IT?', duration: '25:40' },
-                { id: 9, title: '8 lời khuyên giúp học lập trình tại F8 hiệu quả hơn!', duration: '06:27' },
-                { id: 10, title: 'Tại sao nên học trên website này hơn là học trên Youtube?', duration: '08:14' }
-            ]
-        },
-        {
-            id: 4,
-            title: 'Hoàn thành khóa học',
-            lessonsCount: 2,
-            expanded: false
-        }
-    ];
+  course: Course | null = null;
+  lesson: Lesson[] = [];
+  courseId: number | null = null;
+  userId: any;
+  isPlaying = false;
+  videoUrl: SafeResourceUrl | null = null;
+  isEnrolled: boolean = false;
 
-    constructor(private sanitizer: DomSanitizer) { }
+  constructor(
+    private sanitizer: DomSanitizer,
+    private route: ActivatedRoute,
+    private httprouter: Router, // Thêm Router
+    private courseService: CourseService,
+    private lessonService: LessonsService,
+    private cartService: CartService,
+    private enrollmentService: EnrollmentService,
+    private authService: AuthService
+  ) {}
 
-    ngOnInit() {
-        this.playVideo();
-    }
-    pauseVideo() {
-        this.isPlaying = false;
-    }
-    playVideo() {
-        const url = "https://www.youtube.com/embed/dQw4w9WgXcQ"; // Thay bằng URL video thực tế
-        this.videoUrl = this.sanitizer.bypassSecurityTrustResourceUrl(url);
-        this.isPlaying = true;
-    }
+  ngOnInit() {
+    this.route.queryParams.subscribe((params) => {
+      this.courseId = +params['id']; // Convert to number
+      if (this.courseId) {
+        this.loadCourseDetails(this.courseId);
+        this.loadLessonByCourse();
+      }
+    });
+    this.playVideo();
+    this.checkCourseEnrollment();
+  }
 
-    toggleModule(moduleId: number): void {
-        this.modules = this.modules.map(module => {
-            if (module.id === moduleId) {
-                return { ...module, expanded: !module.expanded };
-            }
-            return module;
-        });
+  checkCourseEnrollment() {
+    const token = this.authService.getToken();
+    if (token) {
+      this.authService.getUserInfo(token).subscribe({
+        next: (response: AuthenticatedUser) => {
+          this.userId = response.id;
+          this.enrollmentService
+            .checkEnrollment(
+              '411fd051-6612-4cd8-af48-66098e520b84',
+              this.courseId
+            )
+            .subscribe({
+              next: (value: { isEnrolled: boolean }) => {
+                this.isEnrolled = value.isEnrolled; // Store the isEnrolled value
+                console.log('Enrollment status:', this.isEnrolled);
+              },
+              error: (err) => {
+                console.error('Error checking enrollment:', err);
+                this.isEnrolled = false; // Fallback in case of error
+              },
+            });
+        },
+        error: (error) => {
+          console.error('Error fetching user data:', error);
+          this.isEnrolled = false; // Fallback in case of error
+        },
+      });
+    } else {
+      console.error('No token found in localStorage');
+      this.isEnrolled = false; // Fallback if no token
     }
+  }
+
+  loadCourseDetails(id: number) {
+    this.courseService.getCourseById(id).subscribe({
+      next: (course) => {
+        this.course = course;
+      },
+      error: (err) => {
+        console.error('Error fetching course details:', err);
+      },
+    });
+  }
+
+  loadLessonByCourse() {
+    this.lessonService.getLessonsByCourse(this.courseId).subscribe({
+      next: (req: Lesson[]) => {
+        this.lesson = req.sort((a, b) => a.order - b.order);
+      },
+      error: (err) => {
+        console.log(err);
+      },
+    });
+  }
+
+  goToCart() {
+    if (this.isEnrolled) {
+      this.httprouter.navigate(['/coursestudy'], {
+        queryParams: { id: this.courseId },
+      });
+    } else {
+      if (this.course) {
+        this.cartService.addToCart(this.course);
+        console.log('cart');
+        this.httprouter.navigate(['/cart']);
+      }
+    }
+  }
+
+  pauseVideo() {
+    this.isPlaying = false;
+  }
+
+  playVideo() {
+    // const url = 'https://www.youtube.com/embed/dQw4w9WgXcQ';
+    const url = '';
+    this.videoUrl = this.sanitizer.bypassSecurityTrustResourceUrl(url);
+    this.isPlaying = true;
+  }
 }

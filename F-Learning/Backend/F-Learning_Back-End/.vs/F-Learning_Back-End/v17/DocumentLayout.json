@@ -1,26 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Ki10\\F-Learning\\Backend\\F-Learning_Back-End\\",
+  "WorkspaceRootPath": "D:\\FPT\\TERM 8- FPT\\PRN231_new\\Project\\F-Learning\\Backend\\F-Learning_Back-End\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7EA2A5CD-AA5E-4288-8A2D-C8AFB16D7816}|FLearning.EnrollmentService\\FLearning.EnrollmentService.csproj|d:\\ki10\\f-learning\\backend\\f-learning_back-end\\flearning.enrollmentservice\\flearning.enrollmentservice.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
-      "RelativeMoniker": "D:0:0:{7EA2A5CD-AA5E-4288-8A2D-C8AFB16D7816}|FLearning.EnrollmentService\\FLearning.EnrollmentService.csproj|solutionrelative:flearning.enrollmentservice\\flearning.enrollmentservice.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7EA2A5CD-AA5E-4288-8A2D-C8AFB16D7816}|FLearning.EnrollmentService\\FLearning.EnrollmentService.csproj|d:\\ki10\\f-learning\\backend\\f-learning_back-end\\flearning.enrollmentservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{7EA2A5CD-AA5E-4288-8A2D-C8AFB16D7816}|FLearning.EnrollmentService\\FLearning.EnrollmentService.csproj|solutionrelative:flearning.enrollmentservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{993625AE-51E8-46F2-8087-1EDF8FFB3A04}|FLearning.PaymentService\\FLearning.PaymentService.csproj|d:\\ki10\\f-learning\\backend\\f-learning_back-end\\flearning.paymentservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{993625AE-51E8-46F2-8087-1EDF8FFB3A04}|FLearning.PaymentService\\FLearning.PaymentService.csproj|solutionrelative:flearning.paymentservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{993625AE-51E8-46F2-8087-1EDF8FFB3A04}|FLearning.PaymentService\\FLearning.PaymentService.csproj|d:\\ki10\\f-learning\\backend\\f-learning_back-end\\flearning.paymentservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{993625AE-51E8-46F2-8087-1EDF8FFB3A04}|FLearning.PaymentService\\FLearning.PaymentService.csproj|solutionrelative:flearning.paymentservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7EA2A5CD-AA5E-4288-8A2D-C8AFB16D7816}|FLearning.EnrollmentService\\FLearning.EnrollmentService.csproj|d:\\ki10\\f-learning\\backend\\f-learning_back-end\\flearning.enrollmentservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7EA2A5CD-AA5E-4288-8A2D-C8AFB16D7816}|FLearning.EnrollmentService\\FLearning.EnrollmentService.csproj|solutionrelative:flearning.enrollmentservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{11F7FFEE-D80E-44CA-9101-E7E7E3FEC73A}|..\\AuthenticationService\\AuthenticationService\\AuthenticationService.csproj|d:\\fpt\\term 8- fpt\\prn231_new\\project\\f-learning\\backend\\authenticationservice\\authenticationservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,8 +13,12 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 120,
+          "SelectedChildIndex": 118,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
@@ -94,10 +81,6 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
               "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
             },
             {
@@ -119,10 +102,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Bookmark",
@@ -498,83 +477,27 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Bookmark",
               "Name": "ST:34:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:35:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
             },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:35:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "FLearning.EnrollmentService.http",
-              "DocumentMoniker": "D:\\Ki10\\F-Learning\\Backend\\F-Learning_Back-End\\FLearning.EnrollmentService\\FLearning.EnrollmentService.http",
-              "RelativeDocumentMoniker": "FLearning.EnrollmentService\\FLearning.EnrollmentService.http",
-              "ToolTip": "D:\\Ki10\\F-Learning\\Backend\\F-Learning_Back-End\\FLearning.EnrollmentService\\FLearning.EnrollmentService.http",
-              "RelativeToolTip": "FLearning.EnrollmentService\\FLearning.EnrollmentService.http",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2025-03-26T05:07:31.34Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\Ki10\\F-Learning\\Backend\\F-Learning_Back-End\\FLearning.EnrollmentService\\appsettings.json",
-              "RelativeDocumentMoniker": "FLearning.EnrollmentService\\appsettings.json",
-              "ToolTip": "D:\\Ki10\\F-Learning\\Backend\\F-Learning_Back-End\\FLearning.EnrollmentService\\appsettings.json",
-              "RelativeToolTip": "FLearning.EnrollmentService\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "DocumentMoniker": "D:\\FPT\\TERM 8- FPT\\PRN231_new\\Project\\F-Learning\\Backend\\AuthenticationService\\AuthenticationService\\appsettings.json",
+              "RelativeDocumentMoniker": "..\\AuthenticationService\\AuthenticationService\\appsettings.json",
+              "ToolTip": "D:\\FPT\\TERM 8- FPT\\PRN231_new\\Project\\F-Learning\\Backend\\AuthenticationService\\AuthenticationService\\appsettings.json",
+              "RelativeToolTip": "..\\AuthenticationService\\AuthenticationService\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-26T05:07:29.753Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\Ki10\\F-Learning\\Backend\\F-Learning_Back-End\\FLearning.PaymentService\\appsettings.json",
-              "RelativeDocumentMoniker": "FLearning.PaymentService\\appsettings.json",
-              "ToolTip": "D:\\Ki10\\F-Learning\\Backend\\F-Learning_Back-End\\FLearning.PaymentService\\appsettings.json",
-              "RelativeToolTip": "FLearning.PaymentService\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAACTAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-26T05:05:34.882Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Ki10\\F-Learning\\Backend\\F-Learning_Back-End\\FLearning.PaymentService\\Program.cs",
-              "RelativeDocumentMoniker": "FLearning.PaymentService\\Program.cs",
-              "ToolTip": "D:\\Ki10\\F-Learning\\Backend\\F-Learning_Back-End\\FLearning.PaymentService\\Program.cs",
-              "RelativeToolTip": "FLearning.PaymentService\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-26T05:05:31.646Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Ki10\\F-Learning\\Backend\\F-Learning_Back-End\\FLearning.EnrollmentService\\Program.cs",
-              "RelativeDocumentMoniker": "FLearning.EnrollmentService\\Program.cs",
-              "ToolTip": "D:\\Ki10\\F-Learning\\Backend\\F-Learning_Back-End\\FLearning.EnrollmentService\\Program.cs",
-              "RelativeToolTip": "FLearning.EnrollmentService\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-26T05:05:29.605Z",
+              "WhenOpened": "2025-03-31T15:19:28.211Z",
               "EditorCaption": ""
             }
           ]
@@ -583,6 +506,10 @@
           "DockedWidth": 529,
           "SelectedChildIndex": -1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:27:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
@@ -650,10 +577,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:145:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             }
           ]
         }

@@ -2,11 +2,8 @@
 using FLearning.PaymentService.Models.DTOs;
 using FLearning.PaymentService.Models.MoMo;
 using FLearning.PaymentService.Services;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using System.Net.Http;
-using System.Security.Claims;
 
 namespace FLearning.PaymentService.Controllers
 {
@@ -87,7 +84,7 @@ namespace FLearning.PaymentService.Controllers
 
                 // Sau khi cập nhật trạng thái Payment, gọi EnrollmentService để cập nhật trạng thái enrollment.
                 // Ví dụ: cập nhật enrollment sang "enrolled"
-                var updateDto = new 
+                var updateDto = new
                 {
                     StudentId = payment.StudentId,
                     CourseId = payment.CourseId,
@@ -146,5 +143,44 @@ namespace FLearning.PaymentService.Controllers
 
             return Ok(payments);
         }
+
+        [HttpPost("update-status-from-callback")]
+        public async Task<IActionResult> UpdateStatusFromCallback([FromBody] PaymentCallbackRequestDTO requestDto)
+        {
+            var queryParams = new Dictionary<string, string>
+    {
+        { "orderId", requestDto.OrderId },
+        { "amount", requestDto.Amount },
+        { "orderInfo", requestDto.OrderInfo }
+    };
+
+            var momoExecuteResponse = await _momoService.PaymentExecuteAsync(queryParams);
+
+            var payment = await _dbContext.Payments.FirstOrDefaultAsync(p => p.TransactionId == momoExecuteResponse.OrderId);
+            if (payment == null)
+            {
+                return NotFound(new { message = "Payment not found" });
+            }
+
+            payment.PaymentStatus = "Completed";
+            await _dbContext.SaveChangesAsync();
+
+            var updateEnrollmentDto = new
+            {
+                StudentId = payment.StudentId,
+                CourseId = payment.CourseId,
+                Status = "completed"
+            };
+
+            var enrollmentClient = _httpClientFactory.CreateClient("EnrollmentService");
+            var enrollmentResponse = await enrollmentClient.PostAsJsonAsync("api/Enrollments/update-status", updateEnrollmentDto);
+            if (!enrollmentResponse.IsSuccessStatusCode)
+            {
+                _logger.LogError("Lỗi cập nhật enrollment status cho StudentId: {StudentId}, CourseId: {CourseId}", payment.StudentId, payment.CourseId);
+            }
+
+            return Ok(new { message = "Payment status updated successfully", orderId = momoExecuteResponse.OrderId });
+        }
+
     }
 }

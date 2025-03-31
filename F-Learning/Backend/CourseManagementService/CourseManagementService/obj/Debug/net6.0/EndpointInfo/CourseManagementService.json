@@ -989,7 +989,9 @@
             "nullable": true
           },
           "videoUrl": {
+            "pattern": "^(https?\\:\\/\\/)?(www\\.youtube\\.com|youtu\\.?be)\\/.+$",
             "type": "string",
+            "format": "uri",
             "nullable": true
           },
           "order": {

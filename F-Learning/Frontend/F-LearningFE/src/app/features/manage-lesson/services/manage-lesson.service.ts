@@ -20,7 +20,7 @@ export class LessonsService {
     });
   }
 
-  getLessonsByCourse(courseId: number): Observable<Lesson[]> {
+  getLessonsByCourse(courseId: any): Observable<Lesson[]> {
     return this.http.get<Lesson[]>(`${this.apiUrl}/Course/${courseId}`);
   }
 
@@ -43,5 +43,14 @@ export class LessonsService {
   deleteLesson(id: number): Observable<void> {
     const headers = this.getAuthHeaders();
     return this.http.delete<void>(`${this.apiUrl}/${id}`, { headers });
+  }
+
+  createLessonsBulk(lessons: Partial<Lesson>[]): Observable<Lesson[]> {
+    const headers = this.getAuthHeaders();
+    return this.http.post<Lesson[]>(
+      `${this.apiUrl}/bulk`,
+      { lessons },
+      { headers }
+    );
   }
 }

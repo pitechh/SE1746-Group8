@@ -23,7 +23,7 @@ export class CreateLessonsComponent implements OnInit {
         title: '',
         content: '',
         videoUrl: '',
-        order: 1,
+        order: 0, 
         courseId: this.courseId ?? 0, // Sử dụng courseId từ Input, mặc định là 0 nếu undefined
       },
     ];
@@ -36,7 +36,7 @@ export class CreateLessonsComponent implements OnInit {
       title: '',
       content: '',
       videoUrl: '',
-      order: this.lessons.length + 1,
+      order: 0,
       courseId: this.courseId ?? 0,
     });
   }

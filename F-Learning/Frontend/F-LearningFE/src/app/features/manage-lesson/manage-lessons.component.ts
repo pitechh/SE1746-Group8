@@ -8,6 +8,7 @@ import { Lesson } from './interface/manage-lesson.interface';
 import { LessonsService } from './services/manage-lesson.service';
 import { CreateLessonsComponent } from './create-lessons/create-lessons.component';
 import { DeleteLessonComponent } from './delete-lesson/delete-lesson.component';
+import { UpdateLessonComponent } from './eupdate-lesson/update-lesson.component';
 
 @Component({
   standalone: true,
@@ -17,6 +18,7 @@ import { DeleteLessonComponent } from './delete-lesson/delete-lesson.component';
     ToastComponent,
     CreateLessonsComponent,
     DeleteLessonComponent,
+    UpdateLessonComponent,
   ],
   selector: 'app-manage-lessons',
   templateUrl: 'manage-lessons.component.html',
@@ -71,6 +73,7 @@ export class ManageLessonsComponent implements OnInit {
     this.selectedLesson = { ...lesson };
     this.showDeleteModal = true;
   }
+
   confirmDeleteLesson(lesson: Lesson): void {
     this.lessonsService.deleteLesson(lesson.id).subscribe({
       next: () => {
@@ -87,8 +90,20 @@ export class ManageLessonsComponent implements OnInit {
   }
 
   onSaveLessons(lessons: any[]) {
-    console.log('Saving lessons:', lessons);
-    this.isModalOpen = false;
+    this.lessonsService.createLessonsBulk(lessons).subscribe({
+      next: (response: Lesson[]) => {
+        this.lessons = [...this.lessons, ...response];
+        this.updatePagination();
+        this.showSuccessToast('Lessons created successfully');
+        this.isModalOpen = false;
+      },
+      error: (error) => {
+        console.error('Error creating lessons:', error);
+        this.showErrorToast(
+          'Failed to create lessons: ' + (error.error || 'Unknown error')
+        );
+      },
+    });
   }
 
   getCourses(): void {
@@ -206,5 +221,24 @@ export class ManageLessonsComponent implements OnInit {
 
   closeCreateOrUpdateModal(): void {
     this.showCreateOrUpdateModal = false;
+  }
+
+  confirmUpdateLesson(lesson: Lesson): void {
+    this.lessonsService.updateLesson(lesson).subscribe({
+      next: (updatedLesson: Lesson) => {
+        this.getCourses();
+        this.showCreateOrUpdateModal = false;
+        this.showSuccessToast('Lesson updated successfully');
+      },
+      error: (error) => {
+        this.showCreateOrUpdateModal = false;
+
+        console.error('Error updating lesson:', error);
+        const errorMessage =
+          error.error?.message || 'An unknown error occurred';
+
+        this.showErrorToast(`Failed to update lesson: ${errorMessage}`);
+      },
+    });
   }
 }

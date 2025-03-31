@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FLearning.NotificationService")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6bc0593d8f659b569690258c1b9cc03f6575abc7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+15b9d5c32327a4e3e4a4892db29054ecf26b3cdf")]
 [assembly: System.Reflection.AssemblyProductAttribute("FLearning.NotificationService")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FLearning.NotificationService")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

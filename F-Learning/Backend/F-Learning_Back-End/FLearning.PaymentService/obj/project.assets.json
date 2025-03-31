@@ -89,6 +89,25 @@
           }
         }
       },
+      "Microsoft.AspNetCore.Authentication.JwtBearer/6.0.36": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.IdentityModel.Protocols.OpenIdConnect": "6.35.0"
+        },
+        "compile": {
+          "lib/net6.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll": {
+            "related": ".xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
       "Microsoft.AspNetCore.Mvc.Versioning/5.1.0": {
         "type": "package",
         "compile": {
@@ -1068,6 +1087,23 @@
           }
         }
       },
+      "RabbitMQ.Client/7.1.2": {
+        "type": "package",
+        "dependencies": {
+          "System.IO.Pipelines": "8.0.0",
+          "System.Threading.RateLimiting": "8.0.0"
+        },
+        "compile": {
+          "lib/net8.0/RabbitMQ.Client.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/RabbitMQ.Client.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "RestSharp/112.1.0": {
         "type": "package",
         "compile": {
@@ -1736,6 +1772,22 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
+      "System.Threading.RateLimiting/8.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/System.Threading.RateLimiting.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.Threading.RateLimiting.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
       "System.Threading.Tasks.Extensions/4.5.4": {
         "type": "package",
         "compile": {
@@ -1765,6 +1817,16 @@
             "assetType": "runtime",
             "rid": "win"
           }
+        }
+      },
+      "SharedLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/SharedLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SharedLibrary.dll": {}
         }
       }
     }
@@ -1853,6 +1915,21 @@
         "lib/netstandard2.0/Humanizer.dll",
         "lib/netstandard2.0/Humanizer.xml",
         "logo.png"
+      ]
+    },
+    "Microsoft.AspNetCore.Authentication.JwtBearer/6.0.36": {
+      "sha512": "vGDqvZUehbtKdoUzVO32N0Lxon+1piGO6qFnA8FNXEzWhrLN5uum8ZyhWgrWYSA4b6JuCBJ/wAC7rV38wBvLew==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.authentication.jwtbearer/6.0.36",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net6.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll",
+        "lib/net6.0/Microsoft.AspNetCore.Authentication.JwtBearer.xml",
+        "microsoft.aspnetcore.authentication.jwtbearer.6.0.36.nupkg.sha512",
+        "microsoft.aspnetcore.authentication.jwtbearer.nuspec"
       ]
     },
     "Microsoft.AspNetCore.Mvc.Versioning/5.1.0": {
@@ -4015,6 +4092,23 @@
         "packageIcon.png"
       ]
     },
+    "RabbitMQ.Client/7.1.2": {
+      "sha512": "y3c6ulgULScWthHw5PLM1ShHRLhxg0vCtzX/hh61gRgNecL3ZC3WoBW2HYHoXOVRqTl99Br9E7CZEytGZEsCyQ==",
+      "type": "package",
+      "path": "rabbitmq.client/7.1.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "icon.png",
+        "lib/net8.0/RabbitMQ.Client.dll",
+        "lib/net8.0/RabbitMQ.Client.xml",
+        "lib/netstandard2.0/RabbitMQ.Client.dll",
+        "lib/netstandard2.0/RabbitMQ.Client.xml",
+        "rabbitmq.client.7.1.2.nupkg.sha512",
+        "rabbitmq.client.nuspec"
+      ]
+    },
     "RestSharp/112.1.0": {
       "sha512": "bOUGNZqhhv/QeCXHTKEUil846yBjwWXpzPKjO67kFvaAOoF361z7jLY5BMnuZ6WD2WQRA750sNMcK7MSPCQ5Mg==",
       "type": "package",
@@ -5260,6 +5354,35 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "System.Threading.RateLimiting/8.0.0": {
+      "sha512": "7mu9v0QDv66ar3DpGSZHg9NuNcxDaaAcnMULuZlaTpP9+hwXhrxNGsF5GmLkSHxFdb5bBc1TzeujsRgTrPWi+Q==",
+      "type": "package",
+      "path": "system.threading.ratelimiting/8.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/System.Threading.RateLimiting.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/System.Threading.RateLimiting.targets",
+        "lib/net462/System.Threading.RateLimiting.dll",
+        "lib/net462/System.Threading.RateLimiting.xml",
+        "lib/net6.0/System.Threading.RateLimiting.dll",
+        "lib/net6.0/System.Threading.RateLimiting.xml",
+        "lib/net7.0/System.Threading.RateLimiting.dll",
+        "lib/net7.0/System.Threading.RateLimiting.xml",
+        "lib/net8.0/System.Threading.RateLimiting.dll",
+        "lib/net8.0/System.Threading.RateLimiting.xml",
+        "lib/netstandard2.0/System.Threading.RateLimiting.dll",
+        "lib/netstandard2.0/System.Threading.RateLimiting.xml",
+        "system.threading.ratelimiting.8.0.0.nupkg.sha512",
+        "system.threading.ratelimiting.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
     "System.Threading.Tasks.Extensions/4.5.4": {
       "sha512": "zteT+G8xuGu6mS+mzDzYXbzS7rd3K6Fjb9RiZlYlJPam2/hU7JCBZBVEcywNuR+oZ1ncTvc/cq0faRr3P01OVg==",
       "type": "package",
@@ -5319,39 +5442,47 @@
         "system.windows.extensions.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "SharedLibrary/1.0.0": {
+      "type": "project",
+      "path": "../SharedLibrary/SharedLibrary.csproj",
+      "msbuildProject": "../SharedLibrary/SharedLibrary.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
       "AutoMapper.Extensions.Microsoft.DependencyInjection >= 12.0.0",
+      "Microsoft.AspNetCore.Authentication.JwtBearer >= 6.0.36",
       "Microsoft.AspNetCore.Mvc.Versioning >= 5.1.0",
       "Microsoft.EntityFrameworkCore >= 9.0.2",
       "Microsoft.EntityFrameworkCore.Design >= 9.0.2",
       "Microsoft.EntityFrameworkCore.SqlServer >= 9.0.2",
       "Microsoft.EntityFrameworkCore.Tools >= 9.0.2",
       "Newtonsoft.Json >= 13.0.3",
+      "RabbitMQ.Client >= 7.1.2",
       "RestSharp >= 112.1.0",
+      "SharedLibrary >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.4.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\hieub\\.nuget\\packages\\": {},
+    "C:\\Users\\trung\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Ki10\\F-Learning\\Backend\\F-Learning_Back-End\\FLearning.PaymentService\\FLearning.PaymentService.csproj",
+      "projectUniqueName": "D:\\FPT\\TERM 8- FPT\\PRN231_new\\Project\\F-Learning\\Backend\\F-Learning_Back-End\\FLearning.PaymentService\\FLearning.PaymentService.csproj",
       "projectName": "FLearning.PaymentService",
-      "projectPath": "D:\\Ki10\\F-Learning\\Backend\\F-Learning_Back-End\\FLearning.PaymentService\\FLearning.PaymentService.csproj",
-      "packagesPath": "C:\\Users\\hieub\\.nuget\\packages\\",
-      "outputPath": "D:\\Ki10\\F-Learning\\Backend\\F-Learning_Back-End\\FLearning.PaymentService\\obj\\",
+      "projectPath": "D:\\FPT\\TERM 8- FPT\\PRN231_new\\Project\\F-Learning\\Backend\\F-Learning_Back-End\\FLearning.PaymentService\\FLearning.PaymentService.csproj",
+      "packagesPath": "C:\\Users\\trung\\.nuget\\packages\\",
+      "outputPath": "D:\\FPT\\TERM 8- FPT\\PRN231_new\\Project\\F-Learning\\Backend\\F-Learning_Back-End\\FLearning.PaymentService\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\hieub\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\trung\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -5360,12 +5491,17 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\FPT\\TERM 8- FPT\\PRN231_new\\Project\\F-Learning\\Backend\\F-Learning_Back-End\\SharedLibrary\\SharedLibrary.csproj": {
+              "projectPath": "D:\\FPT\\TERM 8- FPT\\PRN231_new\\Project\\F-Learning\\Backend\\F-Learning_Back-End\\SharedLibrary\\SharedLibrary.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -5377,8 +5513,7 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      },
-      "SdkAnalysisLevel": "9.0.200"
+      }
     },
     "frameworks": {
       "net8.0": {
@@ -5387,6 +5522,10 @@
           "AutoMapper.Extensions.Microsoft.DependencyInjection": {
             "target": "Package",
             "version": "[12.0.0, )"
+          },
+          "Microsoft.AspNetCore.Authentication.JwtBearer": {
+            "target": "Package",
+            "version": "[6.0.36, )"
           },
           "Microsoft.AspNetCore.Mvc.Versioning": {
             "target": "Package",
@@ -5416,6 +5555,10 @@
             "target": "Package",
             "version": "[13.0.3, )"
           },
+          "RabbitMQ.Client": {
+            "target": "Package",
+            "version": "[7.1.2, )"
+          },
           "RestSharp": {
             "target": "Package",
             "version": "[112.1.0, )"
@@ -5444,7 +5587,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

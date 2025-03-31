@@ -1,137 +1,129 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\PRN231\\F-Learning\\Backend\\CourseManagementService\\",
+  "WorkspaceRootPath": "D:\\Ki10\\F-Learning\\Backend\\CourseManagementService\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|d:\\prn231\\f-learning\\backend\\coursemanagementservice\\coursemanagementservice\\models\\lesson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|solutionrelative:coursemanagementservice\\models\\lesson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|d:\\prn231\\f-learning\\backend\\coursemanagementservice\\coursemanagementservice\\dtos\\lessondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|solutionrelative:coursemanagementservice\\dtos\\lessondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|d:\\prn231\\f-learning\\backend\\coursemanagementservice\\coursemanagementservice\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|solutionrelative:coursemanagementservice\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|d:\\prn231\\f-learning\\backend\\coursemanagementservice\\coursemanagementservice\\repositories\\courserepository .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|solutionrelative:coursemanagementservice\\repositories\\courserepository .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|d:\\prn231\\f-learning\\backend\\coursemanagementservice\\coursemanagementservice\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|solutionrelative:coursemanagementservice\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|d:\\prn231\\f-learning\\backend\\coursemanagementservice\\coursemanagementservice\\repositories\\categoryrepository .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|solutionrelative:coursemanagementservice\\repositories\\categoryrepository .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|d:\\prn231\\f-learning\\backend\\coursemanagementservice\\coursemanagementservice\\repositories\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|solutionrelative:coursemanagementservice\\repositories\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|d:\\prn231\\f-learning\\backend\\coursemanagementservice\\coursemanagementservice\\controllers\\coursescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|solutionrelative:coursemanagementservice\\controllers\\coursescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|d:\\prn231\\f-learning\\backend\\coursemanagementservice\\coursemanagementservice\\controllers\\lessonscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|solutionrelative:coursemanagementservice\\controllers\\lessonscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|d:\\prn231\\f-learning\\backend\\coursemanagementservice\\coursemanagementservice\\dtos\\createlessonsbulkdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|solutionrelative:coursemanagementservice\\dtos\\createlessonsbulkdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|d:\\prn231\\f-learning\\backend\\coursemanagementservice\\coursemanagementservice\\repositories\\lessonrepository .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|solutionrelative:coursemanagementservice\\repositories\\lessonrepository .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|d:\\prn231\\f-learning\\backend\\coursemanagementservice\\coursemanagementservice\\repositories\\ilessonrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|solutionrelative:coursemanagementservice\\repositories\\ilessonrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|d:\\prn231\\f-learning\\backend\\coursemanagementservice\\coursemanagementservice\\repositories\\icourserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|solutionrelative:coursemanagementservice\\repositories\\icourserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|d:\\prn231\\f-learning\\backend\\coursemanagementservice\\coursemanagementservice\\dtos\\createlessondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|solutionrelative:coursemanagementservice\\dtos\\createlessondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|d:\\prn231\\f-learning\\backend\\coursemanagementservice\\coursemanagementservice\\controllers\\videocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|solutionrelative:coursemanagementservice\\controllers\\videocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|d:\\prn231\\f-learning\\backend\\coursemanagementservice\\coursemanagementservice\\dtos\\updatelessondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|solutionrelative:coursemanagementservice\\dtos\\updatelessondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|d:\\prn231\\f-learning\\backend\\coursemanagementservice\\coursemanagementservice\\models\\videoqualitypreset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|solutionrelative:coursemanagementservice\\models\\videoqualitypreset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|d:\\prn231\\f-learning\\backend\\coursemanagementservice\\coursemanagementservice\\service\\videoprocessingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|solutionrelative:coursemanagementservice\\service\\videoprocessingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|d:\\prn231\\f-learning\\backend\\coursemanagementservice\\coursemanagementservice\\models\\coursestatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|solutionrelative:coursemanagementservice\\models\\coursestatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|d:\\prn231\\f-learning\\backend\\coursemanagementservice\\coursemanagementservice\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|solutionrelative:coursemanagementservice\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|d:\\prn231\\f-learning\\backend\\coursemanagementservice\\coursemanagementservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|solutionrelative:coursemanagementservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|d:\\prn231\\f-learning\\backend\\coursemanagementservice\\coursemanagementservice\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|solutionrelative:coursemanagementservice\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|d:\\prn231\\f-learning\\backend\\coursemanagementservice\\coursemanagementservice\\migrations\\20250328193650_addvideofilenametolesson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|solutionrelative:coursemanagementservice\\migrations\\20250328193650_addvideofilenametolesson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|d:\\prn231\\f-learning\\backend\\coursemanagementservice\\coursemanagementservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|d:\\ki10\\f-learning\\backend\\coursemanagementservice\\coursemanagementservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|solutionrelative:coursemanagementservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|d:\\prn231\\f-learning\\backend\\coursemanagementservice\\coursemanagementservice\\dtos\\videometadatadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|solutionrelative:coursemanagementservice\\dtos\\videometadatadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|d:\\ki10\\f-learning\\backend\\coursemanagementservice\\coursemanagementservice\\models\\coursestatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|solutionrelative:coursemanagementservice\\models\\coursestatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|d:\\prn231\\f-learning\\backend\\coursemanagementservice\\coursemanagementservice\\coursemanagementservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|solutionrelative:coursemanagementservice\\coursemanagementservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|d:\\ki10\\f-learning\\backend\\coursemanagementservice\\coursemanagementservice\\models\\lesson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|solutionrelative:coursemanagementservice\\models\\lesson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|d:\\prn231\\f-learning\\backend\\coursemanagementservice\\coursemanagementservice\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|solutionrelative:coursemanagementservice\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|d:\\ki10\\f-learning\\backend\\coursemanagementservice\\coursemanagementservice\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|solutionrelative:coursemanagementservice\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|d:\\prn231\\f-learning\\backend\\coursemanagementservice\\coursemanagementservice\\migrations\\20250315143458_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|solutionrelative:coursemanagementservice\\migrations\\20250315143458_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|d:\\ki10\\f-learning\\backend\\coursemanagementservice\\coursemanagementservice\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|solutionrelative:coursemanagementservice\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|d:\\prn231\\f-learning\\backend\\coursemanagementservice\\coursemanagementservice\\data\\applicationdbcontext .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|d:\\ki10\\f-learning\\backend\\coursemanagementservice\\coursemanagementservice\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|solutionrelative:coursemanagementservice\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|d:\\ki10\\f-learning\\backend\\coursemanagementservice\\coursemanagementservice\\migrations\\20250328193650_addvideofilenametolesson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|solutionrelative:coursemanagementservice\\migrations\\20250328193650_addvideofilenametolesson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|d:\\ki10\\f-learning\\backend\\coursemanagementservice\\coursemanagementservice\\data\\applicationdbcontext .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|solutionrelative:coursemanagementservice\\data\\applicationdbcontext .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|d:\\prn231\\f-learning\\backend\\coursemanagementservice\\coursemanagementservice\\dtos\\createcoursedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|d:\\ki10\\f-learning\\backend\\coursemanagementservice\\coursemanagementservice\\service\\videoprocessingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|solutionrelative:coursemanagementservice\\service\\videoprocessingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|d:\\ki10\\f-learning\\backend\\coursemanagementservice\\coursemanagementservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|solutionrelative:coursemanagementservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|d:\\ki10\\f-learning\\backend\\coursemanagementservice\\coursemanagementservice\\dtos\\lessondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|solutionrelative:coursemanagementservice\\dtos\\lessondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|d:\\ki10\\f-learning\\backend\\coursemanagementservice\\coursemanagementservice\\controllers\\coursescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|solutionrelative:coursemanagementservice\\controllers\\coursescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|d:\\ki10\\f-learning\\backend\\coursemanagementservice\\coursemanagementservice\\controllers\\lessonscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|solutionrelative:coursemanagementservice\\controllers\\lessonscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|d:\\ki10\\f-learning\\backend\\coursemanagementservice\\coursemanagementservice\\dtos\\videometadatadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|solutionrelative:coursemanagementservice\\dtos\\videometadatadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|d:\\ki10\\f-learning\\backend\\coursemanagementservice\\coursemanagementservice\\controllers\\videocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|solutionrelative:coursemanagementservice\\controllers\\videocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|d:\\ki10\\f-learning\\backend\\coursemanagementservice\\coursemanagementservice\\coursemanagementservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|solutionrelative:coursemanagementservice\\coursemanagementservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|d:\\ki10\\f-learning\\backend\\coursemanagementservice\\coursemanagementservice\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|solutionrelative:coursemanagementservice\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|d:\\ki10\\f-learning\\backend\\coursemanagementservice\\coursemanagementservice\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|solutionrelative:coursemanagementservice\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|d:\\ki10\\f-learning\\backend\\coursemanagementservice\\coursemanagementservice\\migrations\\20250315143458_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|solutionrelative:coursemanagementservice\\migrations\\20250315143458_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|d:\\ki10\\f-learning\\backend\\coursemanagementservice\\coursemanagementservice\\dtos\\createcoursedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|solutionrelative:coursemanagementservice\\dtos\\createcoursedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|d:\\prn231\\f-learning\\backend\\coursemanagementservice\\coursemanagementservice\\dtos\\coursedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|d:\\ki10\\f-learning\\backend\\coursemanagementservice\\coursemanagementservice\\dtos\\coursedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|solutionrelative:coursemanagementservice\\dtos\\coursedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|d:\\prn231\\f-learning\\backend\\coursemanagementservice\\coursemanagementservice\\dtos\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|d:\\ki10\\f-learning\\backend\\coursemanagementservice\\coursemanagementservice\\dtos\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|solutionrelative:coursemanagementservice\\dtos\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|d:\\prn231\\f-learning\\backend\\coursemanagementservice\\coursemanagementservice\\dtos\\updatecoursedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|d:\\ki10\\f-learning\\backend\\coursemanagementservice\\coursemanagementservice\\repositories\\lessonrepository .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|solutionrelative:coursemanagementservice\\repositories\\lessonrepository .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|d:\\ki10\\f-learning\\backend\\coursemanagementservice\\coursemanagementservice\\repositories\\categoryrepository .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|solutionrelative:coursemanagementservice\\repositories\\categoryrepository .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|d:\\ki10\\f-learning\\backend\\coursemanagementservice\\coursemanagementservice\\repositories\\courserepository .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|solutionrelative:coursemanagementservice\\repositories\\courserepository .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|d:\\ki10\\f-learning\\backend\\coursemanagementservice\\coursemanagementservice\\repositories\\icourserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|solutionrelative:coursemanagementservice\\repositories\\icourserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|d:\\ki10\\f-learning\\backend\\coursemanagementservice\\coursemanagementservice\\repositories\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|solutionrelative:coursemanagementservice\\repositories\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|d:\\ki10\\f-learning\\backend\\coursemanagementservice\\coursemanagementservice\\repositories\\ilessonrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|solutionrelative:coursemanagementservice\\repositories\\ilessonrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|d:\\ki10\\f-learning\\backend\\coursemanagementservice\\coursemanagementservice\\dtos\\updatelessondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|solutionrelative:coursemanagementservice\\dtos\\updatelessondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|d:\\ki10\\f-learning\\backend\\coursemanagementservice\\coursemanagementservice\\dtos\\createlessondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|solutionrelative:coursemanagementservice\\dtos\\createlessondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|d:\\ki10\\f-learning\\backend\\coursemanagementservice\\coursemanagementservice\\dtos\\updatecoursedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BAEE87CF-83B7-42F5-B37D-F7D824CD9834}|CourseManagementService\\CourseManagementService.csproj|solutionrelative:coursemanagementservice\\dtos\\updatecoursedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -142,7 +134,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 302,
-          "SelectedChildIndex": 124,
+          "SelectedChildIndex": 126,
           "Children": [
             {
               "$type": "Bookmark",
@@ -614,115 +606,11 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:37:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "CategoryRepository .cs",
-              "DocumentMoniker": "D:\\PRN231\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\Repositories\\CategoryRepository .cs",
-              "RelativeDocumentMoniker": "CourseManagementService\\Repositories\\CategoryRepository .cs",
-              "ToolTip": "D:\\PRN231\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\Repositories\\CategoryRepository .cs",
-              "RelativeToolTip": "CourseManagementService\\Repositories\\CategoryRepository .cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAYwBkAAABAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-14T02:47:41.91Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Category.cs",
-              "DocumentMoniker": "D:\\PRN231\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\Models\\Category.cs",
-              "RelativeDocumentMoniker": "CourseManagementService\\Models\\Category.cs",
-              "ToolTip": "D:\\PRN231\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\Models\\Category.cs",
-              "RelativeToolTip": "CourseManagementService\\Models\\Category.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAIAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T02:25:25.492Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CourseRepository .cs",
-              "DocumentMoniker": "D:\\PRN231\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\Repositories\\CourseRepository .cs",
-              "RelativeDocumentMoniker": "CourseManagementService\\Repositories\\CourseRepository .cs",
-              "ToolTip": "D:\\PRN231\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\Repositories\\CourseRepository .cs",
-              "RelativeToolTip": "CourseManagementService\\Repositories\\CourseRepository .cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAkwCgAAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-14T02:45:33.153Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Course.cs",
-              "DocumentMoniker": "D:\\PRN231\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\Models\\Course.cs",
-              "RelativeDocumentMoniker": "CourseManagementService\\Models\\Course.cs",
-              "ToolTip": "D:\\PRN231\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\Models\\Course.cs",
-              "RelativeToolTip": "CourseManagementService\\Models\\Course.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T02:25:00.721Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "LessonsController.cs",
-              "DocumentMoniker": "D:\\PRN231\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\Controllers\\LessonsController.cs",
-              "RelativeDocumentMoniker": "CourseManagementService\\Controllers\\LessonsController.cs",
-              "ToolTip": "D:\\PRN231\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\Controllers\\LessonsController.cs",
-              "RelativeToolTip": "CourseManagementService\\Controllers\\LessonsController.cs",
-              "ViewState": "AgIAAMEAAAAAAAAAAAAAAKsAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-14T02:51:49.942Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "LessonDto.cs",
-              "DocumentMoniker": "D:\\PRN231\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\DTOs\\LessonDto.cs",
-              "RelativeDocumentMoniker": "CourseManagementService\\DTOs\\LessonDto.cs",
-              "ToolTip": "D:\\PRN231\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\DTOs\\LessonDto.cs",
-              "RelativeToolTip": "CourseManagementService\\DTOs\\LessonDto.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAYwAsAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-14T02:41:53.127Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Lesson.cs",
-              "DocumentMoniker": "D:\\PRN231\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\Models\\Lesson.cs",
-              "RelativeDocumentMoniker": "CourseManagementService\\Models\\Lesson.cs",
-              "ToolTip": "D:\\PRN231\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\Models\\Lesson.cs*",
-              "RelativeToolTip": "CourseManagementService\\Models\\Lesson.cs*",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAxwAsAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T02:24:26.232Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ICategoryRepository.cs",
-              "DocumentMoniker": "D:\\PRN231\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\Repositories\\ICategoryRepository.cs",
-              "RelativeDocumentMoniker": "CourseManagementService\\Repositories\\ICategoryRepository.cs",
-              "ToolTip": "D:\\PRN231\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\Repositories\\ICategoryRepository.cs",
-              "RelativeToolTip": "CourseManagementService\\Repositories\\ICategoryRepository.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAEwAsAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-14T02:47:09.938Z",
-              "EditorCaption": ""
+              "Name": "ST:34:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+              "Name": "ST:35:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
             },
             {
               "$type": "Bookmark",
@@ -730,263 +618,71 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "CoursesController.cs",
-              "DocumentMoniker": "D:\\PRN231\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\Controllers\\CoursesController.cs",
-              "RelativeDocumentMoniker": "CourseManagementService\\Controllers\\CoursesController.cs",
-              "ToolTip": "D:\\PRN231\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\Controllers\\CoursesController.cs",
-              "RelativeToolTip": "CourseManagementService\\Controllers\\CoursesController.cs",
-              "ViewState": "AgIAAGYAAAAAAAAAAAAawG4AAABOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-14T02:51:27.845Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "CreateLessonDto.cs",
-              "DocumentMoniker": "D:\\PRN231\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\DTOs\\CreateLessonDto.cs",
-              "RelativeDocumentMoniker": "CourseManagementService\\DTOs\\CreateLessonDto.cs",
-              "ToolTip": "D:\\PRN231\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\DTOs\\CreateLessonDto.cs",
-              "RelativeToolTip": "CourseManagementService\\DTOs\\CreateLessonDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-14T02:42:40.537Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "ILessonRepository.cs",
-              "DocumentMoniker": "D:\\PRN231\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\Repositories\\ILessonRepository.cs",
-              "RelativeDocumentMoniker": "CourseManagementService\\Repositories\\ILessonRepository.cs",
-              "ToolTip": "D:\\PRN231\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\Repositories\\ILessonRepository.cs",
-              "RelativeToolTip": "CourseManagementService\\Repositories\\ILessonRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-14T02:49:14.399Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "LessonRepository .cs",
-              "DocumentMoniker": "D:\\PRN231\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\Repositories\\LessonRepository .cs",
-              "RelativeDocumentMoniker": "CourseManagementService\\Repositories\\LessonRepository .cs",
-              "ToolTip": "D:\\PRN231\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\Repositories\\LessonRepository .cs",
-              "RelativeToolTip": "CourseManagementService\\Repositories\\LessonRepository .cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAqwDsAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-14T02:49:51.674Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "ICourseRepository.cs",
-              "DocumentMoniker": "D:\\PRN231\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\Repositories\\ICourseRepository.cs",
-              "RelativeDocumentMoniker": "CourseManagementService\\Repositories\\ICourseRepository.cs",
-              "ToolTip": "D:\\PRN231\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\Repositories\\ICourseRepository.cs",
-              "RelativeToolTip": "CourseManagementService\\Repositories\\ICourseRepository.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAjwAwAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-14T02:44:47.719Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "CreateLessonsBulkDto.cs",
-              "DocumentMoniker": "D:\\PRN231\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\DTOs\\CreateLessonsBulkDto.cs",
-              "RelativeDocumentMoniker": "CourseManagementService\\DTOs\\CreateLessonsBulkDto.cs",
-              "ToolTip": "D:\\PRN231\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\DTOs\\CreateLessonsBulkDto.cs",
-              "RelativeToolTip": "CourseManagementService\\DTOs\\CreateLessonsBulkDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T21:22:44.109Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "VideoController.cs",
-              "DocumentMoniker": "D:\\PRN231\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\Controllers\\VideoController.cs",
-              "RelativeDocumentMoniker": "CourseManagementService\\Controllers\\VideoController.cs",
-              "ToolTip": "D:\\PRN231\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\Controllers\\VideoController.cs",
-              "RelativeToolTip": "CourseManagementService\\Controllers\\VideoController.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAYwBQAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T19:31:34.796Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "VideoQualityPreset.cs",
-              "DocumentMoniker": "D:\\PRN231\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\Models\\VideoQualityPreset.cs",
-              "RelativeDocumentMoniker": "CourseManagementService\\Models\\VideoQualityPreset.cs",
-              "ToolTip": "D:\\PRN231\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\Models\\VideoQualityPreset.cs",
-              "RelativeToolTip": "CourseManagementService\\Models\\VideoQualityPreset.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T19:29:44.917Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "UpdateLessonDto.cs",
-              "DocumentMoniker": "D:\\PRN231\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\DTOs\\UpdateLessonDto.cs",
-              "RelativeDocumentMoniker": "CourseManagementService\\DTOs\\UpdateLessonDto.cs",
-              "ToolTip": "D:\\PRN231\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\DTOs\\UpdateLessonDto.cs",
-              "RelativeToolTip": "CourseManagementService\\DTOs\\UpdateLessonDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-14T02:42:59.456Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "VideoProcessingService.cs",
-              "DocumentMoniker": "D:\\PRN231\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\Service\\VideoProcessingService.cs",
-              "RelativeDocumentMoniker": "CourseManagementService\\Service\\VideoProcessingService.cs",
-              "ToolTip": "D:\\PRN231\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\Service\\VideoProcessingService.cs",
-              "RelativeToolTip": "CourseManagementService\\Service\\VideoProcessingService.cs",
-              "ViewState": "AgIAAM4AAAAAAAAAAAAuwPEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T19:28:36.545Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 1,
               "Title": "CourseStatus.cs",
-              "DocumentMoniker": "D:\\PRN231\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\Models\\CourseStatus.cs",
+              "DocumentMoniker": "D:\\Ki10\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\Models\\CourseStatus.cs",
               "RelativeDocumentMoniker": "CourseManagementService\\Models\\CourseStatus.cs",
-              "ToolTip": "D:\\PRN231\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\Models\\CourseStatus.cs",
+              "ToolTip": "D:\\Ki10\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\Models\\CourseStatus.cs",
               "RelativeToolTip": "CourseManagementService\\Models\\CourseStatus.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAYAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T02:23:16.057Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-12T02:23:16.057Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "CategoriesController.cs",
-              "DocumentMoniker": "D:\\PRN231\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\Controllers\\CategoriesController.cs",
-              "RelativeDocumentMoniker": "CourseManagementService\\Controllers\\CategoriesController.cs",
-              "ToolTip": "D:\\PRN231\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\Controllers\\CategoriesController.cs",
-              "RelativeToolTip": "CourseManagementService\\Controllers\\CategoriesController.cs",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAgwD8AAAAJAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "Course.cs",
+              "DocumentMoniker": "D:\\Ki10\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\Models\\Course.cs",
+              "RelativeDocumentMoniker": "CourseManagementService\\Models\\Course.cs",
+              "ToolTip": "D:\\Ki10\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\Models\\Course.cs",
+              "RelativeToolTip": "CourseManagementService\\Models\\Course.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-14T03:12:28.254Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-12T02:25:00.721Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 3,
+              "Title": "Category.cs",
+              "DocumentMoniker": "D:\\Ki10\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "CourseManagementService\\Models\\Category.cs",
+              "ToolTip": "D:\\Ki10\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\Models\\Category.cs",
+              "RelativeToolTip": "CourseManagementService\\Models\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T02:25:25.492Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Lesson.cs",
+              "DocumentMoniker": "D:\\Ki10\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\Models\\Lesson.cs",
+              "RelativeDocumentMoniker": "CourseManagementService\\Models\\Lesson.cs",
+              "ToolTip": "D:\\Ki10\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\Models\\Lesson.cs",
+              "RelativeToolTip": "CourseManagementService\\Models\\Lesson.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T02:24:26.232Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "ApplicationDbContextModelSnapshot.cs",
-              "DocumentMoniker": "D:\\PRN231\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "DocumentMoniker": "D:\\Ki10\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\Migrations\\ApplicationDbContextModelSnapshot.cs",
               "RelativeDocumentMoniker": "CourseManagementService\\Migrations\\ApplicationDbContextModelSnapshot.cs",
-              "ToolTip": "D:\\PRN231\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ToolTip": "D:\\Ki10\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\Migrations\\ApplicationDbContextModelSnapshot.cs",
               "RelativeToolTip": "CourseManagementService\\Migrations\\ApplicationDbContextModelSnapshot.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAQwBcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAF4AAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-15T14:36:23.056Z"
+              "WhenOpened": "2025-03-29T00:51:12.367Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\PRN231\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\Program.cs",
-              "RelativeDocumentMoniker": "CourseManagementService\\Program.cs",
-              "ToolTip": "D:\\PRN231\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\Program.cs",
-              "RelativeToolTip": "CourseManagementService\\Program.cs",
-              "ViewState": "AgIAAFEAAAAAAAAAAAAAACEAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-14T03:14:19.982Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "20250328193650_AddVideoFileNameToLesson.cs",
-              "DocumentMoniker": "D:\\PRN231\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\Migrations\\20250328193650_AddVideoFileNameToLesson.cs",
-              "RelativeDocumentMoniker": "CourseManagementService\\Migrations\\20250328193650_AddVideoFileNameToLesson.cs",
-              "ToolTip": "D:\\PRN231\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\Migrations\\20250328193650_AddVideoFileNameToLesson.cs",
-              "RelativeToolTip": "CourseManagementService\\Migrations\\20250328193650_AddVideoFileNameToLesson.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T19:36:50.795Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\PRN231\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\appsettings.json",
-              "RelativeDocumentMoniker": "CourseManagementService\\appsettings.json",
-              "ToolTip": "D:\\PRN231\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\appsettings.json",
-              "RelativeToolTip": "CourseManagementService\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-14T03:16:20.658Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "VideoMetadataDto.cs",
-              "DocumentMoniker": "D:\\PRN231\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\DTOs\\VideoMetadataDto.cs",
-              "RelativeDocumentMoniker": "CourseManagementService\\DTOs\\VideoMetadataDto.cs",
-              "ToolTip": "D:\\PRN231\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\DTOs\\VideoMetadataDto.cs",
-              "RelativeToolTip": "CourseManagementService\\DTOs\\VideoMetadataDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T19:30:48.784Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "CourseManagementService.csproj",
-              "DocumentMoniker": "D:\\PRN231\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\CourseManagementService.csproj",
-              "RelativeDocumentMoniker": "CourseManagementService\\CourseManagementService.csproj",
-              "ToolTip": "D:\\PRN231\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\CourseManagementService.csproj",
-              "RelativeToolTip": "CourseManagementService\\CourseManagementService.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-03-26T03:50:25.398Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "D:\\PRN231\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "CourseManagementService\\Properties\\launchSettings.json",
-              "ToolTip": "D:\\PRN231\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\Properties\\launchSettings.json",
-              "RelativeToolTip": "CourseManagementService\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAkwBIAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-26T04:04:58.234Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "20250315143458_InitialCreate.cs",
-              "DocumentMoniker": "D:\\PRN231\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\Migrations\\20250315143458_InitialCreate.cs",
-              "RelativeDocumentMoniker": "CourseManagementService\\Migrations\\20250315143458_InitialCreate.cs",
-              "ToolTip": "D:\\PRN231\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\Migrations\\20250315143458_InitialCreate.cs",
-              "RelativeToolTip": "CourseManagementService\\Migrations\\20250315143458_InitialCreate.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-15T14:36:25.585Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 7,
               "Title": "ApplicationDbContext .cs",
-              "DocumentMoniker": "D:\\PRN231\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\Data\\ApplicationDbContext .cs",
+              "DocumentMoniker": "D:\\Ki10\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\Data\\ApplicationDbContext .cs",
               "RelativeDocumentMoniker": "CourseManagementService\\Data\\ApplicationDbContext .cs",
-              "ToolTip": "D:\\PRN231\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\Data\\ApplicationDbContext .cs",
+              "ToolTip": "D:\\Ki10\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\Data\\ApplicationDbContext .cs",
               "RelativeToolTip": "CourseManagementService\\Data\\ApplicationDbContext .cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -994,11 +690,168 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Ki10\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\appsettings.json",
+              "RelativeDocumentMoniker": "CourseManagementService\\appsettings.json",
+              "ToolTip": "D:\\Ki10\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\appsettings.json",
+              "RelativeToolTip": "CourseManagementService\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-14T03:16:20.658Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "20250328193650_AddVideoFileNameToLesson.cs",
+              "DocumentMoniker": "D:\\Ki10\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\Migrations\\20250328193650_AddVideoFileNameToLesson.cs",
+              "RelativeDocumentMoniker": "CourseManagementService\\Migrations\\20250328193650_AddVideoFileNameToLesson.cs",
+              "ToolTip": "D:\\Ki10\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\Migrations\\20250328193650_AddVideoFileNameToLesson.cs",
+              "RelativeToolTip": "CourseManagementService\\Migrations\\20250328193650_AddVideoFileNameToLesson.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T19:36:50.795Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CoursesController.cs",
+              "DocumentMoniker": "D:\\Ki10\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\Controllers\\CoursesController.cs",
+              "RelativeDocumentMoniker": "CourseManagementService\\Controllers\\CoursesController.cs",
+              "ToolTip": "D:\\Ki10\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\Controllers\\CoursesController.cs",
+              "RelativeToolTip": "CourseManagementService\\Controllers\\CoursesController.cs",
+              "ViewState": "AgIAAL0AAAAAAAAAAAApwKoAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T02:51:27.845Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "VideoProcessingService.cs",
+              "DocumentMoniker": "D:\\Ki10\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\Service\\VideoProcessingService.cs",
+              "RelativeDocumentMoniker": "CourseManagementService\\Service\\VideoProcessingService.cs",
+              "ToolTip": "D:\\Ki10\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\Service\\VideoProcessingService.cs",
+              "RelativeToolTip": "CourseManagementService\\Service\\VideoProcessingService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAArwHYAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T19:28:36.545Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Ki10\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\Program.cs",
+              "RelativeDocumentMoniker": "CourseManagementService\\Program.cs",
+              "ToolTip": "D:\\Ki10\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\Program.cs",
+              "RelativeToolTip": "CourseManagementService\\Program.cs",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAAACEAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T03:14:19.982Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "LessonsController.cs",
+              "DocumentMoniker": "D:\\Ki10\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\Controllers\\LessonsController.cs",
+              "RelativeDocumentMoniker": "CourseManagementService\\Controllers\\LessonsController.cs",
+              "ToolTip": "D:\\Ki10\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\Controllers\\LessonsController.cs",
+              "RelativeToolTip": "CourseManagementService\\Controllers\\LessonsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAI8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T02:51:49.942Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "LessonDto.cs",
+              "DocumentMoniker": "D:\\Ki10\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\DTOs\\LessonDto.cs",
+              "RelativeDocumentMoniker": "CourseManagementService\\DTOs\\LessonDto.cs",
+              "ToolTip": "D:\\Ki10\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\DTOs\\LessonDto.cs",
+              "RelativeToolTip": "CourseManagementService\\DTOs\\LessonDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T02:41:53.127Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "VideoMetadataDto.cs",
+              "DocumentMoniker": "D:\\Ki10\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\DTOs\\VideoMetadataDto.cs",
+              "RelativeDocumentMoniker": "CourseManagementService\\DTOs\\VideoMetadataDto.cs",
+              "ToolTip": "D:\\Ki10\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\DTOs\\VideoMetadataDto.cs",
+              "RelativeToolTip": "CourseManagementService\\DTOs\\VideoMetadataDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T19:30:48.784Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "VideoController.cs",
+              "DocumentMoniker": "D:\\Ki10\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\Controllers\\VideoController.cs",
+              "RelativeDocumentMoniker": "CourseManagementService\\Controllers\\VideoController.cs",
+              "ToolTip": "D:\\Ki10\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\Controllers\\VideoController.cs",
+              "RelativeToolTip": "CourseManagementService\\Controllers\\VideoController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T19:31:34.796Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CourseManagementService.csproj",
+              "DocumentMoniker": "D:\\Ki10\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\CourseManagementService.csproj",
+              "RelativeDocumentMoniker": "CourseManagementService\\CourseManagementService.csproj",
+              "ToolTip": "D:\\Ki10\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\CourseManagementService.csproj",
+              "RelativeToolTip": "CourseManagementService\\CourseManagementService.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-26T03:50:25.398Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "CategoriesController.cs",
+              "DocumentMoniker": "D:\\Ki10\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\Controllers\\CategoriesController.cs",
+              "RelativeDocumentMoniker": "CourseManagementService\\Controllers\\CategoriesController.cs",
+              "ToolTip": "D:\\Ki10\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\Controllers\\CategoriesController.cs",
+              "RelativeToolTip": "CourseManagementService\\Controllers\\CategoriesController.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAgwD8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T03:12:28.254Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\Ki10\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "CourseManagementService\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\Ki10\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\Properties\\launchSettings.json",
+              "RelativeToolTip": "CourseManagementService\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAkwBIAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-26T04:04:58.234Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "20250315143458_InitialCreate.cs",
+              "DocumentMoniker": "D:\\Ki10\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\Migrations\\20250315143458_InitialCreate.cs",
+              "RelativeDocumentMoniker": "CourseManagementService\\Migrations\\20250315143458_InitialCreate.cs",
+              "ToolTip": "D:\\Ki10\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\Migrations\\20250315143458_InitialCreate.cs",
+              "RelativeToolTip": "CourseManagementService\\Migrations\\20250315143458_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T14:36:25.585Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
               "Title": "CategoryDto.cs",
-              "DocumentMoniker": "D:\\PRN231\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\DTOs\\CategoryDto.cs",
+              "DocumentMoniker": "D:\\Ki10\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\DTOs\\CategoryDto.cs",
               "RelativeDocumentMoniker": "CourseManagementService\\DTOs\\CategoryDto.cs",
-              "ToolTip": "D:\\PRN231\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\DTOs\\CategoryDto.cs",
+              "ToolTip": "D:\\Ki10\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\DTOs\\CategoryDto.cs",
               "RelativeToolTip": "CourseManagementService\\DTOs\\CategoryDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1006,11 +859,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 19,
               "Title": "CreateCourseDto.cs",
-              "DocumentMoniker": "D:\\PRN231\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\DTOs\\CreateCourseDto.cs",
+              "DocumentMoniker": "D:\\Ki10\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\DTOs\\CreateCourseDto.cs",
               "RelativeDocumentMoniker": "CourseManagementService\\DTOs\\CreateCourseDto.cs",
-              "ToolTip": "D:\\PRN231\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\DTOs\\CreateCourseDto.cs",
+              "ToolTip": "D:\\Ki10\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\DTOs\\CreateCourseDto.cs",
               "RelativeToolTip": "CourseManagementService\\DTOs\\CreateCourseDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1018,11 +871,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 20,
               "Title": "CourseDto.cs",
-              "DocumentMoniker": "D:\\PRN231\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\DTOs\\CourseDto.cs",
+              "DocumentMoniker": "D:\\Ki10\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\DTOs\\CourseDto.cs",
               "RelativeDocumentMoniker": "CourseManagementService\\DTOs\\CourseDto.cs",
-              "ToolTip": "D:\\PRN231\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\DTOs\\CourseDto.cs",
+              "ToolTip": "D:\\Ki10\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\DTOs\\CourseDto.cs",
               "RelativeToolTip": "CourseManagementService\\DTOs\\CourseDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1030,11 +883,107 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 22,
+              "Title": "LessonRepository .cs",
+              "DocumentMoniker": "D:\\Ki10\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\Repositories\\LessonRepository .cs",
+              "RelativeDocumentMoniker": "CourseManagementService\\Repositories\\LessonRepository .cs",
+              "ToolTip": "D:\\Ki10\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\Repositories\\LessonRepository .cs",
+              "RelativeToolTip": "CourseManagementService\\Repositories\\LessonRepository .cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwDkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T02:49:51.674Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "CategoryRepository .cs",
+              "DocumentMoniker": "D:\\Ki10\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\Repositories\\CategoryRepository .cs",
+              "RelativeDocumentMoniker": "CourseManagementService\\Repositories\\CategoryRepository .cs",
+              "ToolTip": "D:\\Ki10\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\Repositories\\CategoryRepository .cs",
+              "RelativeToolTip": "CourseManagementService\\Repositories\\CategoryRepository .cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T02:47:41.91Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "CourseRepository .cs",
+              "DocumentMoniker": "D:\\Ki10\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\Repositories\\CourseRepository .cs",
+              "RelativeDocumentMoniker": "CourseManagementService\\Repositories\\CourseRepository .cs",
+              "ToolTip": "D:\\Ki10\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\Repositories\\CourseRepository .cs",
+              "RelativeToolTip": "CourseManagementService\\Repositories\\CourseRepository .cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBwAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T02:45:33.153Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ICourseRepository.cs",
+              "DocumentMoniker": "D:\\Ki10\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\Repositories\\ICourseRepository.cs",
+              "RelativeDocumentMoniker": "CourseManagementService\\Repositories\\ICourseRepository.cs",
+              "ToolTip": "D:\\Ki10\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\Repositories\\ICourseRepository.cs",
+              "RelativeToolTip": "CourseManagementService\\Repositories\\ICourseRepository.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwAcAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T02:44:47.719Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ICategoryRepository.cs",
+              "DocumentMoniker": "D:\\Ki10\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\Repositories\\ICategoryRepository.cs",
+              "RelativeDocumentMoniker": "CourseManagementService\\Repositories\\ICategoryRepository.cs",
+              "ToolTip": "D:\\Ki10\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\Repositories\\ICategoryRepository.cs",
+              "RelativeToolTip": "CourseManagementService\\Repositories\\ICategoryRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T02:47:09.938Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ILessonRepository.cs",
+              "DocumentMoniker": "D:\\Ki10\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\Repositories\\ILessonRepository.cs",
+              "RelativeDocumentMoniker": "CourseManagementService\\Repositories\\ILessonRepository.cs",
+              "ToolTip": "D:\\Ki10\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\Repositories\\ILessonRepository.cs",
+              "RelativeToolTip": "CourseManagementService\\Repositories\\ILessonRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T02:49:14.399Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "UpdateLessonDto.cs",
+              "DocumentMoniker": "D:\\Ki10\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\DTOs\\UpdateLessonDto.cs",
+              "RelativeDocumentMoniker": "CourseManagementService\\DTOs\\UpdateLessonDto.cs",
+              "ToolTip": "D:\\Ki10\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\DTOs\\UpdateLessonDto.cs",
+              "RelativeToolTip": "CourseManagementService\\DTOs\\UpdateLessonDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T02:42:59.456Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "CreateLessonDto.cs",
+              "DocumentMoniker": "D:\\Ki10\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\DTOs\\CreateLessonDto.cs",
+              "RelativeDocumentMoniker": "CourseManagementService\\DTOs\\CreateLessonDto.cs",
+              "ToolTip": "D:\\Ki10\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\DTOs\\CreateLessonDto.cs",
+              "RelativeToolTip": "CourseManagementService\\DTOs\\CreateLessonDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T02:42:40.537Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
               "Title": "UpdateCourseDto.cs",
-              "DocumentMoniker": "D:\\PRN231\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\DTOs\\UpdateCourseDto.cs",
+              "DocumentMoniker": "D:\\Ki10\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\DTOs\\UpdateCourseDto.cs",
               "RelativeDocumentMoniker": "CourseManagementService\\DTOs\\UpdateCourseDto.cs",
-              "ToolTip": "D:\\PRN231\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\DTOs\\UpdateCourseDto.cs",
+              "ToolTip": "D:\\Ki10\\F-Learning\\Backend\\CourseManagementService\\CourseManagementService\\DTOs\\UpdateCourseDto.cs",
               "RelativeToolTip": "CourseManagementService\\DTOs\\UpdateCourseDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1069,6 +1018,10 @@
             {
               "$type": "Bookmark",
               "Name": "ST:13:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:36:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
             },
             {
               "$type": "Bookmark",
@@ -1109,6 +1062,10 @@
             {
               "$type": "Bookmark",
               "Name": "ST:145:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             }
           ]
         }
